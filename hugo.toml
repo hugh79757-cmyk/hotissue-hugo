@@ -42,7 +42,7 @@ pygmentsUseClasses = true
   # 소셜 아이콘
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/your-github"
+    url = "https://github.com/hugh79757-cmyk"
 
   # 검색 설정
   [params.fuseOpts]
