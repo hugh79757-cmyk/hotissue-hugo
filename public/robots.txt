@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
-Sitemap: http://localhost:58119/sitemap.xml
+Allow: /
+
+Sitemap: https://hotissue.rotcha.kr/sitemap.xml
