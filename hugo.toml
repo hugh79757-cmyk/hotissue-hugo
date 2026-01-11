@@ -1,26 +1,98 @@
 baseURL = "https://hotissue.rotcha.kr/"
 languageCode = "ko"
-title = "Hot Issue"
+title = "핫이슈 블로그"
 theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
 
 [params]
-  defaultTheme = "auto"
-  ShowReadingTime = true
+  env = "production"
+  defaultTheme = "light"
+  disableThemeToggle = true
   ShowShareButtons = true
+  ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  hidemeta = false
+  hideSummary = false
+  
+  # SEO 설정
+  description = "최신 트렌드와 핫이슈를 다루는 블로그입니다. 기술, 개발, IT 소식을 빠르게 전해드립니다."
+  author = "핫이슈 블로그"
+  keywords = ["핫이슈", "트렌드", "기술", "개발", "IT", "뉴스", "블로그"]
+  
+  # 이미지 설정
+  images = ["/images/og-image.png"]
+  
+  # 홈페이지 설정
+  [params.homeInfoParams]
+    Title = "환영합니다 👋"
+    Content = "최신 트렌드와 핫이슈를 빠르게 전해드립니다"
 
-[params.homeInfoParams]
-  Title = "Hot Issue"
-  Content = "핫이슈 모음"
+  # 소셜 아이콘
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/your-github"
 
+  # 검색 설정
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# 메뉴 설정 (Tags 삭제됨)
 [[menu.main]]
   name = "홈"
   url = "/"
   weight = 1
 
 [[menu.main]]
-  name = "글목록"
+  name = "포스트"
   url = "/posts/"
   weight = 2
+
+[[menu.main]]
+  name = "소개"
+  url = "/about/"
+  weight = 3
+
+# 마크업 설정
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = false
+    style = "catppuccin-macchiato"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# 출력 설정
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Minify
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# SEO 관련 설정
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

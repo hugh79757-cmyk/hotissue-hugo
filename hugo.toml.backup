@@ -1,0 +1,26 @@
+baseURL = "https://hotissue.rotcha.kr/"
+languageCode = "ko"
+title = "Hot Issue"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = "Hot Issue"
+  Content = "핫이슈 모음"
+
+[[menu.main]]
+  name = "홈"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "글목록"
+  url = "/posts/"
+  weight = 2

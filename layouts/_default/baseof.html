@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+  {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (eq .Kind "home") }} home
+{{- else if (eq .Kind "page") }} page
+{{- else if (eq .Kind "section") }} section
+{{- else if (eq .Kind "taxonomy") }} taxonomy
+{{- else if (eq .Kind "term") }} term
+{{- end -}}
+" id="top">
+  {{- partialCached "header.html" . .Page -}}
+  
+  <!-- 사이드레일 광고 -->
+  {{- partial "ads-sidebar.html" . -}}
+  
+  <main class="main">
+    <!-- 상단 광고 -->
+    {{- partial "ads-top.html" . -}}
+    
+    {{- block "main" . }}{{ end }}
+    
+    <!-- 하단 광고 -->
+    {{- partial "ads-bottom.html" . -}}
+  </main>
+  
+  {{- partialCached "footer.html" . .Page -}}
+</body>
+
+</html>
