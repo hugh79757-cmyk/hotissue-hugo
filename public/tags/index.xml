@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 핫이슈 블로그</title>
-    <link>http://localhost:58119/tags/</link>
+    <link>https://hotissue.rotcha.kr/tags/</link>
     <description>Recent content in Tags on 핫이슈 블로그</description>
     <image>
       <title>핫이슈 블로그</title>
-      <url>http://localhost:58119/images/og-image.png</url>
-      <link>http://localhost:58119/images/og-image.png</link>
+      <url>https://hotissue.rotcha.kr/images/og-image.png</url>
+      <link>https://hotissue.rotcha.kr/images/og-image.png</link>
     </image>
     <generator>Hugo -- 0.154.2</generator>
     <language>ko</language>
-    <atom:link href="http://localhost:58119/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hotissue.rotcha.kr/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
