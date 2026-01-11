@@ -78,7 +78,7 @@ categories:
 - **유자 하이볼 / 매실 하이볼** – 각 7,000원
 새콤달콤한 유자와 매실 향이 어우러진 시원한 하이볼 메뉴. 여심 저격 메뉴로 인기입니다.
 
-![대포동쪽갈비 목동오목교점](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-2-3-768x1024.jpeg)
+![대포동쪽갈비 목동오목교점](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-2-3-768x1024.jpeg)
 
 ## 마무리하며
 

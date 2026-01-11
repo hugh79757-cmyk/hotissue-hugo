@@ -55,7 +55,7 @@ categories:
 
 단품 청국장 외에도 **제육볶음** 또는 **소불고기**가 포함된 정식 세트도 있어 점심·저녁 모두 만족스럽게 즐길 수 있습니다.
 
-![시골청국장](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-5.jpeg)
+![시골청국장](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-5.jpeg)
 
 ## 마무리하며
 

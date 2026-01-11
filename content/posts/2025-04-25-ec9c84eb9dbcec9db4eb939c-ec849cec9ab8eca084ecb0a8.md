@@ -43,7 +43,7 @@ categories:
 
 [네이버지도에서보기](https://map.naver.com/p/search/%EC%A4%80%EC%88%98%EB%B0%A9%ED%82%A4%EC%B9%9C/place/36819674?c=15.00,0,0,0,dh&isCorrectAnswer=true)
 
-![위라이드 서울전차](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-35-3.jpeg)
+![위라이드 서울전차](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-35-3.jpeg)
 
 ### 위라이드 서울전차 – 서울 도심을 타고 달리는 레트로 감성 투어
 

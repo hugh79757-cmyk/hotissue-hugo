@@ -19,7 +19,7 @@ categories:
 
 - [마무리하며](#마무리하며)
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_c7e9aa48-1024x1024.webp)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_c7e9aa48-1024x1024.webp)
 
 ## 크루아상 베이커리 라미 - 모건뮐러
 
@@ -27,13 +27,13 @@ categories:
 
 서울 용산구 대사관로에 위치한 라미(L’Amie)는 ‘친구’를 뜻하는 프랑스어 이름처럼 편안하고 따뜻한 분위기를 지닌 베이커리입니다. **모건 뮐러 달인 집**과 동일 계열로, 정통 프랑스 스타일 페이스트리(크루아상, 바게트, 사워도우 등)를 선보여 작품 같은 내공을 자랑합니다. 인스타그램 스토리를 통해 당일 빵 메뉴와 입고 상황을 확인할 수 있으며, 매일 아침부터 손님들이 줄을 서는 인기 매장입니다. 단체 이용도 가능하며, 반려동물과 함께 방문할 수 있다는 점도 색다른 매력입니다.
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_5a19ed1d-768x1024.webp)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_5a19ed1d-768x1024.webp)
 
 ### 크루아상 베이커리 모건뮐러 - 대표 메뉴 & 가격
 
 메뉴가격뺑스위스 (Pain Suisse)5,900원크루아상4,900원크루아상 베녜5,400원시나몬 베녜5,400원바게트5,000원샤워도우 (sourdough)7,500원뺑오쇼콜라 (Pain au Chocolat)5,900원브리오쉬 (Brioche)8,000원초콜렛 에끌레어7,900원당근 컵케이크5,400원레드벨벳 컵케이크5,400원바닐라블루 케이크11,000원초콜렛 조각 케이크7,500원크림브륄레7,900원초콜렛 플랑8,000원
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_aff9a5b5-993x1024.webp)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_aff9a5b5-993x1024.webp)
 
 ### 방문 정보 & 꿀팁
 
@@ -57,7 +57,7 @@ categories:
 
 - 주말엔 웨이팅 발생 가능하므로 여유 있는 일정 권장
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_960492a6-1024x1024.webp)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_960492a6-1024x1024.webp)
 
 ## 마무리하며
 

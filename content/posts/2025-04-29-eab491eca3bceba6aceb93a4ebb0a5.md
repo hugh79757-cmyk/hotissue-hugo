@@ -38,7 +38,7 @@ categories:
 
 택배 주문 관련 자세한 사항은 전화 문의를 통해 확인하실 수 있습니다. 제철의 건강함을 집에서 손쉽게 받아보세요.
 
-![광주리들밥 ](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-68.jpeg)
+![광주리들밥 ](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-68.jpeg)
 
 ## 마무리하며
 

@@ -46,7 +46,7 @@ categories:
 
 [네이버지도에서보기](https://map.naver.com/p/entry/place/1112844591?c=15.00,0,0,0,dh)
 
-![아르바이트 달인](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-7-1.jpeg)
+![아르바이트 달인](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-7-1.jpeg)
 
 ## 마무리
 

@@ -52,7 +52,7 @@ categories:
 
 - 영업시간: 매일 11:00 – 22:30 (브레이크타임 15:00 ~ 16:00)
 
-![식장산왕뼈구이](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-45.jpeg)
+![식장산왕뼈구이](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-45.jpeg)
 
 ## **마무리**
 

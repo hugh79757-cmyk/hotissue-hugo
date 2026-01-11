@@ -134,7 +134,7 @@ categories:
 
 - 마지막에 차게 숙성시킨 육수를 붓습니다.
 
-![도토리묵밥](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/내-몸의-시간을-늦추는-저속-노화-밥상-MBN-250420-방송-0-11-screenshot-1-1024x576.webp)
+![도토리묵밥](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/내-몸의-시간을-늦추는-저속-노화-밥상-MBN-250420-방송-0-11-screenshot-1-1024x576.webp)
 
 ## 마무리
 

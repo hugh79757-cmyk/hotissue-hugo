@@ -66,7 +66,7 @@ categories:
 
 특히, 이번 경선에는 **역선택 방지 조항**이 적용되어 다른 정당 지지자의 전략적 개입을 차단하고자 하며, 유권자의 순수한 의사를 반영하는 데 중점을 두고 있습니다.
 
-![국민의힘 대선 경선 일정](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/Live-4월-19일-제21대-대통령후보자-1차-경선-A조-토론회-0-1-screenshot-1024x576.webp)
+![국민의힘 대선 경선 일정](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/Live-4월-19일-제21대-대통령후보자-1차-경선-A조-토론회-0-1-screenshot-1024x576.webp)
 
 ## 마무리
 

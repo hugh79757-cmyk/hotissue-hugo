@@ -87,7 +87,7 @@ categories:
 
 - **보조금 지급** (약 1~2주 내 지급)
 
-![노후경유차 조기폐차 지원금 신청](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/노후경유차-폐차-지워금신청-1024x1024.webp)
+![노후경유차 조기폐차 지원금 신청](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/노후경유차-폐차-지워금신청-1024x1024.webp)
 
 ## 마무리 – 지원금 놓치지 않으려면 지금 확인하세요!
 

@@ -116,7 +116,7 @@ categories:
 
 이럴 때는 그냥 두지 말고, **미리미리 현금으로 전환해두는 것이 훨씬 유리**합니다.
 
-![신한카드 포인트 현금 신청](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/신한포인트-1024x612.webp)
+![신한카드 포인트 현금 신청](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/신한포인트-1024x612.webp)
 
 ## 마무리하며
 

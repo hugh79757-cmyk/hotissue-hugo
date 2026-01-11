@@ -32,7 +32,7 @@ categories:
 
 에어비앤비를 통해서 예약이 가능합니다. 이글 하단의 예약하기 링크를 참고해주세요.
 
-![보령 안대리민박](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/97609dc9-9d57-4334-9b44-f60da20ea35d-1.jpg)
+![보령 안대리민박](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/97609dc9-9d57-4334-9b44-f60da20ea35d-1.jpg)
 
 ## **마무리하며**
 

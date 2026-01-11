@@ -56,7 +56,7 @@ categories:
 미쁨농장에서는 단순한 구매 외에도 방문 체험이 가능해 **산마늘 수확의 현장을 직접 보고 배우는 기회**도 제공합니다.
 아이들과 함께하는 가족 나들이로도 추천할 만하며, 자연을 체험하는 힐링 코스로 입소문을 타고 있습니다.
 
-![명이나물 장아찌](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/resp_bnr_main_103.png)
+![명이나물 장아찌](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/resp_bnr_main_103.png)
 
 ## 마무리하며
 

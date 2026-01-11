@@ -48,7 +48,7 @@ categories:
 
 [네이버지도에서보기](https://map.naver.com/p/search/%EC%82%B0%EB%B3%B8%EC%A0%9C%EC%9D%BC%EB%B3%91%EC%9B%90/place/11525836?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp)
 
-![생활의 달인 쿠키 박스 접기 달인](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-16-1.jpeg)
+![생활의 달인 쿠키 박스 접기 달인](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-16-1.jpeg)
 
 ## 마무리
 

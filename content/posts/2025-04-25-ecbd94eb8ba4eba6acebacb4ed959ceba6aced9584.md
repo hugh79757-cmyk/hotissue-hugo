@@ -45,7 +45,7 @@ categories:
 
 메뉴명설명가격코다리찜 무한리필양념이 잘 배어든 코다리찜을 무제한으로 제공. 셀프바 이용 포함9,900원
 
-![코다리무한리필](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/20250413_131907.jpg.jpg)
+![코다리무한리필](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/20250413_131907.jpg.jpg)
 
 ## 마무리하며
 

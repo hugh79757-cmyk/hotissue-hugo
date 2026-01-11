@@ -73,7 +73,7 @@ categories:
 
 🏠 금융자산과 임차보증금, 자동차까지 **누락 없이 정확히 신고해야** 불이익을 피할 수 있습니다.
 
-![근로·자녀장려금 부부 공동신청](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/근로장려금-부부공동신청-1024x1024.webp)
+![근로·자녀장려금 부부 공동신청](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/근로장려금-부부공동신청-1024x1024.webp)
 
 ## 마무리하며
 

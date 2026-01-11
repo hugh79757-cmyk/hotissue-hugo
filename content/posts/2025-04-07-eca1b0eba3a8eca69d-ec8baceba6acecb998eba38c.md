@@ -67,7 +67,7 @@ categories:
 이러한 상황이라면, **심리상담센터나 성 전문 치료기관**을 통해 심리치료를 시작해보는 것이 권장됩니다.
 
 ![조루증 심리치료
-](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/조루증-1-1024x1024.webp)
+](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/조루증-1-1024x1024.webp)
 
 # 마무리 – 조루, 부끄러워 말고 심리적으로 접근하세요
 

@@ -64,7 +64,7 @@ categories:
 - **전화번호**: 010-9762-7733
 👉 [아리곳간 네이버지도 바로가기](https://map.naver.com/p/search/%EC%95%84%EB%A6%AC%EA%B3%B3%EA%B0%84%20%EA%B0%95%ED%99%94/place/1295793690?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp)
 
-![아리곳간 유과 택배 구매](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/1000032657.jpg)
+![아리곳간 유과 택배 구매](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/1000032657.jpg)
 
 ## 마무리
 

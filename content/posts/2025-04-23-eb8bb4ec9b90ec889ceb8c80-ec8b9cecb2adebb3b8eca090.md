@@ -90,7 +90,7 @@ categories:
 - **계란말이** (10,000원)
 촉촉하고 달달한 기본 계란말이. 아이와 함께 오는 손님에게도 인기.
 
-![담원순대 시청본점](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-30.jpeg)
+![담원순대 시청본점](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-30.jpeg)
 
 ## 마무리하며
 

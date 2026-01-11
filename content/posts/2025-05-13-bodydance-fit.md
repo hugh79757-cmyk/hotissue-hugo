@@ -18,7 +18,7 @@ categories:
 
 [https://youtube.com/@bodyndance_fit](https://youtube.com/@bodyndance_fit)
 
-![Body&Dance Fit](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/왕초보를-위한-40분-댄스다이어트-_-Full-Body-Dance-Workout-40-Minute-Routine-for-Beginners-23-47-screenshot-1-1024x576.webp)
+![Body&Dance Fit](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/왕초보를-위한-40분-댄스다이어트-_-Full-Body-Dance-Workout-40-Minute-Routine-for-Beginners-23-47-screenshot-1-1024x576.webp)
 
 ## **마무리하며**
 

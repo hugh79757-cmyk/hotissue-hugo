@@ -63,7 +63,7 @@ categories:
 - **뚝배기불고기 / 치즈김치전** 각 14,000원 / 13,000원
 식사와 안주 모두 만족시키는 전주식 한 상 메뉴
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-26-2.jpeg)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-26-2.jpeg)
 
 ## 마무리하며
 

@@ -42,7 +42,7 @@ categories:
 
 - **전화번호**: 02-723-1233
 
-![그릴데미그라스](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/20250402_192156.jpg.jpg)
+![그릴데미그라스](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/20250402_192156.jpg.jpg)
 
 ## 마무리
 

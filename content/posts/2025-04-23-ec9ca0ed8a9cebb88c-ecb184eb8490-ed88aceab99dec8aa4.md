@@ -59,7 +59,7 @@ categories:
 
 [네이버지도에서보기](https://map.naver.com/p/search/%EB%B6%88%EC%95%94%EC%82%B0%EB%82%98%EB%B9%84%EC%A0%95%EC%9B%90/place/1229313689?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp)
 
-![유튜브 채널 투깝스](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/초보자용-노래-잘-부르는-법_-무조건-이것-부터-연습하세요-1-0-0-screenshot-1024x576.webp)
+![유튜브 채널 투깝스](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/초보자용-노래-잘-부르는-법_-무조건-이것-부터-연습하세요-1-0-0-screenshot-1024x576.webp)
 
 ## 마무리하며
 

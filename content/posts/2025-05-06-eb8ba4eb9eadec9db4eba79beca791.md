@@ -54,7 +54,7 @@ categories:
 
 - 연락처: 055-863-3338
 
-![다랭이맛집](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-42.jpeg)
+![다랭이맛집](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-42.jpeg)
 
 ## **마무리**
 

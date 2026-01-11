@@ -39,7 +39,7 @@ categories:
 
 [네이버지도에서보기](https://map.naver.com/p/entry/place/2031352170?c=15.00,0,0,0,dh)
 
-![무국적 식당](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-16-818x1024.jpeg)
+![무국적 식당](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-16-818x1024.jpeg)
 
 ### **무국적 식당**
 

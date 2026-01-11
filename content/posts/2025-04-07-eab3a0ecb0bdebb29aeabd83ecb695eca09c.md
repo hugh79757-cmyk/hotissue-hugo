@@ -95,7 +95,7 @@ categories:
 
 1박 2일 코스로 계획하면 더욱 알찬 여행이 가능합니다.
 
-![고창벚꽃축제](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/b9572596-dd6c-481f-b73a-544f81b6fee8_3-1.png)
+![고창벚꽃축제](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/b9572596-dd6c-481f-b73a-544f81b6fee8_3-1.png)
 
 ## 마무리 – 봄날의 낭만, 고창에서 피어나다
 

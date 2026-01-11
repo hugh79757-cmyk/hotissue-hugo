@@ -68,7 +68,7 @@ categories:
 수년째 같은 자리를 지키며, 손님들에게 따뜻한 밥 한 끼를 대접하는 모습은
 노포의 진정한 의미를 보여주는 장면으로 많은 이들의 공감을 자아냈습니다.
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-14.jpeg)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-14.jpeg)
 
 [네이버지도에서보기](https://map.naver.com/p/entry/place/38009586?c=15.00,0,0,0,dh)
 

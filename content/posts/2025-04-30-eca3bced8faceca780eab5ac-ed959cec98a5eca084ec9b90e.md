@@ -61,7 +61,7 @@ KBS 2TV 생생정보 ‘믿고 떠나는 스타의 고장’ 코너에서는 가
 
 [네이버지도에서보기](https://map.naver.com/p/entry/place/1810216883?c=15.00,0,0,0,dh)
 
-![주포지구 한옥전원마을](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-16-3.jpeg)
+![주포지구 한옥전원마을](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-16-3.jpeg)
 
 ## 마무리하며
 

@@ -37,7 +37,7 @@ categories:
 
 - 오리탕 : 진하고 깔끔한 국물 맛, 건강을 생각한 든든한 한 그릇
 
-![목포관광오리탕](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/batch_다운로드-20-768x1024.webp)
+![목포관광오리탕](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/batch_다운로드-20-768x1024.webp)
 
 ## **마무리하며**
 

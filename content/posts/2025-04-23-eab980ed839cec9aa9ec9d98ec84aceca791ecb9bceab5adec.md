@@ -88,7 +88,7 @@ categories:
 
 - **점심특선 오징어세트 (2인 이상)** (15,000원)
 
-![김태용의섬집칼국수아구불고기 화성향남점](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-15.jpeg)
+![김태용의섬집칼국수아구불고기 화성향남점](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-15.jpeg)
 
 ## 마무리하며
 

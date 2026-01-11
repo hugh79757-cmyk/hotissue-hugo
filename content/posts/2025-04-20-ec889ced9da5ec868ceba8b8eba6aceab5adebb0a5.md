@@ -50,7 +50,7 @@ categories:
 
 - **가정식 정식 메뉴도 인기**: 청국장정식은 묵직한 구수함과 전통의 맛이 어우러져 별미로 추천됩니다.
 
-![순흥소머리국밥](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/맛의-명당-신은경의-소백산-영주-밥상_허영만V-CHOSUN-250420-방송-0-17-screenshot-1024x576.webp)
+![순흥소머리국밥](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/맛의-명당-신은경의-소백산-영주-밥상_허영만V-CHOSUN-250420-방송-0-17-screenshot-1024x576.webp)
 
 ## 마무리 – 영주를 찾는다면 반드시 들러야 할 밥집
 

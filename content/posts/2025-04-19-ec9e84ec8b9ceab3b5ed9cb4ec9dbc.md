@@ -68,7 +68,7 @@ categories:
 
 등이 있으며, **경제 활성화와 국민 휴식권 보장 목적**으로 지정된 바 있습니다.
 
-![임시공휴일](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/임시공휴일-1024x669.webp)
+![임시공휴일](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/임시공휴일-1024x669.webp)
 
 ## 마무리 – 확정된 것은 없다, 정부 발표 기다리자
 

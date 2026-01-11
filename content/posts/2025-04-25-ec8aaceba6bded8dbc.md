@@ -58,7 +58,7 @@ categories:
 
 - [내 주변의 슬립퍼 쇼룸 찾기](https://sleeper.co.kr/showroom.html) 
 
-![슬립퍼](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/슬립퍼-1.webp)
+![슬립퍼](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/슬립퍼-1.webp)
 
 ## 마무리하며
 

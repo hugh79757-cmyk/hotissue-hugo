@@ -10,7 +10,7 @@ categories:
 
 [6시내고향 다시보기](https://kuta.informationhot.kr/kbs-6%ec%8b%9c-%eb%82%b4%ea%b3%a0%ed%96%a5-%eb%8b%a4%ec%8b%9c%eb%b3%b4%ea%b8%b0-%eb%b0%a9%ec%86%a1%ec%9d%84-%eb%86%93%ec%b3%a4%eb%8b%a4%eb%a9%b4-%ec%89%bd%ea%b2%8c-%ec%8b%9c%ec%b2%ad/)
 
-![태하민물장어](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_f524bde2-853x1024.webp)
+![태하민물장어](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_f524bde2-853x1024.webp)
 
 [네이버지도에서보기](https://map.naver.com/p/entry/place/1658151743?c=15.00,0,0,0,dh&placePath=/menu?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506141554&locale=ko&svcName=map_pcv5&fromPanelNum=1&additionalHeight=76&timestamp=202506141554&locale=ko&svcName=map_pcv5)
 
@@ -46,7 +46,7 @@ categories:
 
 ### **택배 주문 가이드**
 
-![태하민물장어](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_e54844b9-953x1024.webp)
+![태하민물장어](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_e54844b9-953x1024.webp)
 
 - 주문 방식: 전화 주문 후 계좌 이체 → 택배 발송
 
@@ -68,7 +68,7 @@ categories:
 
 ## **마무리하며**
 
-![태하민물장어](https://hotissue.rotcha.kr/wp-content/uploads/2025/06/img_4532482b-1024x806.webp)
+![태하민물장어](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/06/img_4532482b-1024x806.webp)
 
 여름철 보양식으로 빠질 수 없는 장어, 이제는 장을 찾지 않아도 집에서 간편하게 즐길 수 있습니다. 거창 태하민물장어의 곰탕은 바쁜 일상 속에서도 정성 가득한 한 그릇으로 기운을 북돋아 줍니다. **방송이 선택한 믿을 수 있는 맛**, 여러분의 식탁에서 직접 확인해보시길 바랍니다.
 

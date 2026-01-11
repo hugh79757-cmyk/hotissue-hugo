@@ -53,7 +53,7 @@ categories:
 
 특히 어린이보호구역 위반으로 인한 벌점 60점(40km/h 초과 속도위반 등)은 단 한 번으로 면허정지에 이를 수 있으니 절대 가볍게 넘기면 안 됩니다.
 
-![어린이보호구역 신호위반](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/어린이보호구역-속도위반-1024x1024.webp)
+![어린이보호구역 신호위반](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/어린이보호구역-속도위반-1024x1024.webp)
 
 ## 마무리
 

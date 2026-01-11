@@ -92,7 +92,7 @@ categories:
 
 - **우등/프리미엄 버스**는 좌석이 넓고 편의성이 좋아 장거리 이동 시 선호도가 높습니다.
 
-![시외버스터미널 & 고속버스터미널](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/버스터미널-요금-1-1024x1024.webp)
+![시외버스터미널 & 고속버스터미널](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/버스터미널-요금-1-1024x1024.webp)
 
 # 마무리 - 서울 버스터미널 총정리
 

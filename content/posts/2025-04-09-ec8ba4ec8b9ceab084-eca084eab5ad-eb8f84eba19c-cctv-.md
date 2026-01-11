@@ -71,7 +71,7 @@ categories:
 
 - **모바일에서는 사이트 접속이 다소 느릴 수 있으니, PC 이용을 추천**
 
-![실시간 전국 도로 CCTV 보기](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/실시간-씨씨티비-1024x1024.jpg)
+![실시간 전국 도로 CCTV 보기](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/실시간-씨씨티비-1024x1024.jpg)
 
 ## 마무리
 

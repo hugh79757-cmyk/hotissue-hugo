@@ -105,7 +105,7 @@ categories:
 
 - 반드시 리스크 관리 전략 수립 필요
 
-![이재명 정치 테마주](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/이재명-지지율-이긴-38.조기대선-흐름-바꿀-변수-되나-Y녹취록-_-YTN-0-27-screenshot-1024x576.webp)
+![이재명 정치 테마주](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/이재명-지지율-이긴-38.조기대선-흐름-바꿀-변수-되나-Y녹취록-_-YTN-0-27-screenshot-1024x576.webp)
 
 # 마무리 – 탄핵 관련주, 타이밍과 정보가 핵심입니다
 

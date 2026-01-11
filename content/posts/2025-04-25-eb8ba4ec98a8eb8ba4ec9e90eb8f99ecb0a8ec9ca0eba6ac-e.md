@@ -49,7 +49,7 @@ categories:
 - **공식 블로그:** [다온다자동차유리 강남점 블로그 바로가기](https://blog.naver.com/daondagangnam)
 ※ 영업시간 및 작업 예약은 전화 또는 블로그 문의를 통해 가능합니다.
 
-![다온다자동차유리 강남점](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-6-1.jpeg)
+![다온다자동차유리 강남점](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-6-1.jpeg)
 
 ## 마무리하며
 

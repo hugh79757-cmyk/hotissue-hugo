@@ -55,7 +55,7 @@ categories:
 
 - 연락처: 055-867-6550
 
-![부어스트라덴](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-38.jpeg)
+![부어스트라덴](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-38.jpeg)
 
 ## **마무리**
 

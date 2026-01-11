@@ -107,7 +107,7 @@ categories:
 
 - 중복 지원 불가, 기존 수혜 이력 있을 경우 신청 제한될 수 있음
 
-![희망리턴패키지](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/희망리턴패키지-1-1024x1024.webp)
+![희망리턴패키지](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/희망리턴패키지-1-1024x1024.webp)
 
 ## 마무리
 

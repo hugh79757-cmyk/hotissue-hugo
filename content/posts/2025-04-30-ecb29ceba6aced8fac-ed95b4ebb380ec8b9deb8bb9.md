@@ -44,7 +44,7 @@ categories:
 
 바로 앞에 펼쳐지는 천리포 바다와 낙조 풍경까지 더해져, 식사와 여행의 감성을 동시에 채울 수 있는 장소입니다.
 
-![천리포 해변식당](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-49-2.jpeg)
+![천리포 해변식당](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-49-2.jpeg)
 
 ## 
 마무리하며

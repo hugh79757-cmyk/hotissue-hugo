@@ -35,7 +35,7 @@ categories:
 
 [네이버지도에서보기](https://map.naver.com/p/entry/place/1675259654?c=13.00,0,0,0,dh)
 
-![라무르플라워](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/72A6CD0B-5A1C-4B29-919B-13E30A3B160E.jpeg)
+![라무르플라워](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/72A6CD0B-5A1C-4B29-919B-13E30A3B160E.jpeg)
 
 ## 라무르플라워 – 정성과 디자인이 살아 있는 플라워 전문점
 

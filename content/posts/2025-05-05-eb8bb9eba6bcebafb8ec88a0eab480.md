@@ -30,7 +30,7 @@ categories:
 
 입장료는 성인 5,000원, 어린이 3,000원이며, 경로우대 등 일부 할인 대상자는 현장에서 별도 확인 후 적용됩니다. 단체 관람이나 교육 프로그램 등은 사전 예약을 권장하며, 네이버 예약 페이지([https://naver.me/xSN3Io2W)를](https://booking.naver.com/booking/12/bizes/528528?tr=bnm) 통해 간편하게 신청할 수 있습니다. 전시 외에도 미술관 인스타그램 및 홈페이지를 통해 최신 소식과 작가 소개, 전시 일정 등을 확인할 수 있습니다.
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-11.jpeg)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-11.jpeg)
 
 ## 마무리
 

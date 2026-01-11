@@ -59,7 +59,7 @@ categories:
 
 - **든든한 한 끼**: 기본 반찬인 김치류도 정성스럽게 준비되어 있어 만족도 높은 식사가 가능.
 
-![알곤이 칼국수 ](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/batch_스크린샷-2025-04-19-오후-9.02.52-1024x623.webp)
+![알곤이 칼국수 ](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/batch_스크린샷-2025-04-19-오후-9.02.52-1024x623.webp)
 
 ## 마무리
 

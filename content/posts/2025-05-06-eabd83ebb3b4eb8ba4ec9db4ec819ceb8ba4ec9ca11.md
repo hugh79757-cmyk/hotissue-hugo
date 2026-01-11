@@ -36,7 +36,7 @@ categories:
 
 - [블로그:](https://blog.naver.com/pyoji6666)
 
-![꽃보다이쁜다육](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-9.jpeg)
+![꽃보다이쁜다육](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-9.jpeg)
 
 ## 마무리
 

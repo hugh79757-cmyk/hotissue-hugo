@@ -85,7 +85,7 @@ categories:
 
 - 우편물 수령지 변경 (우체국 홈페이지 또는 앱)
 
-![온라인 전입신고](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/온라인전입신고-1-1024x1024.webp)
+![온라인 전입신고](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/온라인전입신고-1-1024x1024.webp)
 
 # 마무리하며 – 전입신고, 집에서 5분이면 끝!
 

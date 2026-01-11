@@ -31,7 +31,7 @@ categories:
 
 - [네이버지도에서보기](https://map.naver.com/p/entry/place/1227106446?c=15.00,0,0,0,dh)
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-14-1.jpeg)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-14-1.jpeg)
 
 ## 2. 플라이스테이션코리아
 
@@ -67,7 +67,7 @@ categories:
 
 - [네이버지도에서보기](https://map.naver.com/p/search/%ED%8F%89%EC%9B%90%EC%A7%91/place/19866661?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp)
 
-![](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-18.jpeg)
+![](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-18.jpeg)
 
 ## 마무리하며
 

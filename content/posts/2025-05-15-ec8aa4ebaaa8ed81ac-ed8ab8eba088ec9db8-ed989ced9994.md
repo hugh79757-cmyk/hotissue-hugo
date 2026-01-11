@@ -27,7 +27,7 @@ categories:
 주소 : 서울 종로구 창경궁로34길 18-5 1층
 연락처 : 0507-1469-3901
 
-![스모크 트레인 혜화본점](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/batch_다운로드-26.webp)
+![스모크 트레인 혜화본점](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/batch_다운로드-26.webp)
 
 ## **마무리하며**
 

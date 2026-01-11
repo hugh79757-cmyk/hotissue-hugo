@@ -48,7 +48,7 @@ categories:
 
 - **편의시설**: 포장 가능, 와이파이 제공, 단체석 구비, 주차장 보유, 간편결제 가능 등 방문자 중심의 서비스도 잘 갖춰져 있습니다.
 
-![머스캣 크림 라떼](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/batch_스크린샷-2025-04-19-오후-9.03.33-1024x623.webp)
+![머스캣 크림 라떼](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/batch_스크린샷-2025-04-19-오후-9.03.33-1024x623.webp)
 
 ## 마무리
 

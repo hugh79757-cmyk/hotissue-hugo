@@ -74,7 +74,7 @@ categories:
 
 👉 [네이버지도에서 위치 확인하기](https://map.naver.com/p/entry/place/1908125395?c=15.00,0,0,0,dh)
 
-![이기는 면역찬](https://hotissue.rotcha.kr/wp-content/uploads/2025/05/다운로드-1-1.jpeg)
+![이기는 면역찬](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/05/다운로드-1-1.jpeg)
 
 ## 마무리하며
 

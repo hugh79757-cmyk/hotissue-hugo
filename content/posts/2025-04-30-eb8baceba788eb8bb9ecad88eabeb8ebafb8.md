@@ -34,7 +34,7 @@ categories:
 
 - 전화: 0507-1424-0009
 
-![달마당쭈꾸미](https://hotissue.rotcha.kr/wp-content/uploads/2025/04/다운로드-47-1.jpeg)
+![달마당쭈꾸미](https://pub-2f5c7af1c303419a933069212bc25874.r2.dev/wp-content/uploads/2025/04/다운로드-47-1.jpeg)
 
 ## **마무리하며**
 
