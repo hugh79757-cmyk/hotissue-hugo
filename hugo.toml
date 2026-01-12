@@ -11,7 +11,7 @@ pygmentsUseClasses = true
 
 [params]
   env = "production"
-  defaultTheme = "light"
+  defaultTheme = "dark"
   disableThemeToggle = true
   ShowShareButtons = true
   ShowReadingTime = true
