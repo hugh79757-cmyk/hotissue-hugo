@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>금융/대출 on 1분전 생성</title>
-    <link>http://localhost:56728/categories/%EA%B8%88%EC%9C%B5/%EB%8C%80%EC%B6%9C/</link>
+    <link>http://localhost:1316/categories/%EA%B8%88%EC%9C%B5/%EB%8C%80%EC%B6%9C/</link>
     <description>Recent content in 금융/대출 on 1분전 생성</description>
     <generator>Hugo -- 0.154.2</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 12 Jan 2026 02:26:37 +0900</lastBuildDate>
-    <atom:link href="http://localhost:56728/categories/%EA%B8%88%EC%9C%B5/%EB%8C%80%EC%B6%9C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1316/categories/%EA%B8%88%EC%9C%B5/%EB%8C%80%EC%B6%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DTI 계산기 완벽 가이드: 총부채상환비율 계산법과 2026년 규제 기준 총정리</title>
-      <link>http://localhost:56728/posts/dti-gyesangi-wanbyeok-gaideu-chongbuchaesanghwanbiyul-gyesanbeopgwa-2026nyeon-gyuje-gijun-chongjeongri/</link>
+      <link>http://localhost:1316/posts/dti-gyesangi-wanbyeok-gaideu-chongbuchaesanghwanbiyul-gyesanbeopgwa-2026nyeon-gyuje-gijun-chongjeongri/</link>
       <pubDate>Mon, 12 Jan 2026 02:26:37 +0900</pubDate>
-      <guid>http://localhost:56728/posts/dti-gyesangi-wanbyeok-gaideu-chongbuchaesanghwanbiyul-gyesanbeopgwa-2026nyeon-gyuje-gijun-chongjeongri/</guid>
+      <guid>http://localhost:1316/posts/dti-gyesangi-wanbyeok-gaideu-chongbuchaesanghwanbiyul-gyesanbeopgwa-2026nyeon-gyuje-gijun-chongjeongri/</guid>
       <description>DTI(총부채상환비율) 계산 방법과 계산기 사용법을 쉽게 설명합니다. 2026년 기준 지역별 DTI 규제 비율, LTV·DSR과의 차이점, 주택담보대출 한도 계산까지 초보자도 이해할 수 있도록 정리했습니다.</description>
     </item>
   </channel>

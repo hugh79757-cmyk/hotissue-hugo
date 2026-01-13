@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>은시세 on 1분전 생성</title>
-    <link>http://localhost:56728/tags/%EC%9D%80%EC%8B%9C%EC%84%B8/</link>
+    <link>http://localhost:1316/tags/%EC%9D%80%EC%8B%9C%EC%84%B8/</link>
     <description>Recent content in 은시세 on 1분전 생성</description>
     <generator>Hugo -- 0.154.2</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 12 Jan 2026 13:06:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:56728/tags/%EC%9D%80%EC%8B%9C%EC%84%B8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1316/tags/%EC%9D%80%EC%8B%9C%EC%84%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026년 금시세·은시세 전망: 전문가 예측과 투자 방법 총정리</title>
-      <link>http://localhost:56728/posts/2026nyeon-geumsiseeunsise-jeonmang-jeonmunga/</link>
+      <link>http://localhost:1316/posts/2026nyeon-geumsiseeunsise-jeonmang-jeonmunga/</link>
       <pubDate>Mon, 12 Jan 2026 13:06:00 +0900</pubDate>
-      <guid>http://localhost:56728/posts/2026nyeon-geumsiseeunsise-jeonmang-jeonmunga/</guid>
+      <guid>http://localhost:1316/posts/2026nyeon-geumsiseeunsise-jeonmang-jeonmunga/</guid>
       <description>2026년 금값과 은값 전망을 JP모건, 골드만삭스 등 주요 기관의 예측과 함께 분석합니다. 현재 금 1돈 약 78만원, 은 온스당 78달러 시대의 투자 전략과 금ETF, KRX금시장, 골드바 등 투자 방법별 장단점을 비교 정리했습니다.</description>
     </item>
   </channel>

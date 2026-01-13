@@ -6,5 +6,5 @@ categories:
   - Uncategorized
 aliases:
   - /rss-ebaaa8ec9584ebb3b4eab8b0/
+  - /RSS-모아보기/
 ---
-
