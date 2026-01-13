@@ -1,309 +1,127 @@
-<!-- Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772455780561463" crossorigin="anonymous"></script>
-
-<!-- SEO Meta Tags -->
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="googlebot" content="index, follow">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="{{ .Site.Title }}">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="{{ .Permalink }}">
-<link rel="preconnect" href="https://pagead2.googlesyndication.com">
-<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+{{- /* 1. 폰트: 프리텐다드 */ -}}
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
 <style>
-:root {
-  --navy-lightest: #e8f4fc;
-  --navy-light: #8bb8e8;
-  --navy-mid: #5a9bd5;
-  --navy-dark: #2d5a87;
-  --navy-deepest: #1a3a5c;
-  --glass-bg: rgba(26, 58, 92, 0.75);
-  --glass-bg-hover: rgba(35, 75, 115, 0.85);
-  --glass-border: rgba(139, 184, 232, 0.25);
-  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  --primary: #ffffff;
-  --secondary: rgba(139, 184, 232, 0.9);
-  --gap: 24px;
-}
+    /* =========================================
+       1. 디자인 복구 (파란색 테마 + 배경 이미지)
+       ========================================= */
+    :root {
+        /* 텍스트 색상 강제 흰색 고정 (다크 테마 기반) */
+        --primary: #ffffff !important;
+        --secondary: #d1d5db !important; /* 연한 회색 */
+        --content: #f3f4f6 !important;   /* 본문: 아주 밝은 회색 */
+        --hljs-bg: #1f2937 !important;
+        --code-bg: #374151 !important;
+        --border: #4b5563 !important;
+    }
 
-body {
-  min-height: 100vh;
-  position: relative;
-  background: transparent !important;
-  color: var(--primary) !important;
-}
+    body {
+        font-family: "Pretendard", -apple-system, sans-serif;
+        
+        /* 배경 이미지 설정 */
+        background-color: #1a202c !important; 
+        background-image: url('/images/bg-ocean.jpg') !important; 
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: var(--content);
+    }
 
-#bg-gradient {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(160deg, #1a3a5c 0%, #2d5a87 20%, #3d6a97 35%, #4a7aa7 50%, #5a8ab7 65%, #6a9ac7 80%, #7aaad7 100%);
-  z-index: -3;
-}
+    /* [핵심] 상단 메뉴바 (Header) - 짙은 파란색 적용 */
+    .nav {
+        /* 오른쪽 사진과 유사한 짙은 슬레이트 블루 */
+        background: #2c3e50 !important; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* 메뉴 글자색 확실하게 흰색으로 */
+    .logo a, .menu a {
+        color: #ffffff !important;
+        font-weight: 600; /* 조금 더 두껍게 */
+    }
+    .menu a:hover {
+        color: #60a5fa !important; /* 호버 시 밝은 파랑 */
+    }
 
-#bg-ocean {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/images/bg-ocean2.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.7;
-  pointer-events: none;
-  z-index: -2;
-}
+    /* [핵심] 글 박스 - 푸른 기운이 도는 반투명 박스 */
+    .post-single, .post-entry, .index-content, .main .first-entry {
+        /* 짙은 남색 + 투명도 */
+        background: rgba(44, 62, 80, 0.9) !important; 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 24px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+    }
 
-#bg-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: 
-    radial-gradient(ellipse at 20% 30%, rgba(139, 184, 232, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 70%, rgba(90, 155, 213, 0.1) 0%, transparent 50%);
-  pointer-events: none;
-  z-index: -1;
-}
+    /* 제목 색상 */
+    .entry-header h1, .post-title {
+        color: #ffffff !important;
+    }
 
-.main { position: relative; z-index: 1; background: transparent !important; }
-.list, .terms-tags { background: transparent !important; }
+    /* =========================================
+       2. 모바일 & 기능 최적화 (유지)
+       ========================================= */
+    @media screen and (max-width: 768px) {
+        .post-content {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+        .main {
+            padding: 0 15px;
+        }
+    }
 
-.header {
-  background: rgba(26, 58, 92, 0.9) !important;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--glass-border);
-  box-shadow: var(--glass-shadow);
-}
+    /* 표 가로 스크롤 */
+    .post-content table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        background: rgba(0,0,0,0.2);
+        color: #fff;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+    }
+    .post-content th {
+        background: rgba(255,255,255,0.1);
+    }
+    .post-content th, .post-content td {
+        border: 1px solid rgba(255,255,255,0.2);
+        padding: 10px 12px;
+    }
 
-.logo a {
-  font-weight: 700;
-  background: linear-gradient(135deg, #fff 0%, var(--navy-light) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-#menu a {
-  color: var(--primary) !important;
-  padding: 10px 18px;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-}
-#menu a:hover, #menu .active {
-  background: var(--glass-bg-hover);
-  border-color: var(--glass-border);
-  transform: translateY(-2px);
-  color: var(--navy-lightest) !important;
-}
-
-.post-entry {
-  background: var(--glass-bg) !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--glass-border) !important;
-  border-radius: 16px !important;
-  margin-bottom: var(--gap);
-  transition: all 0.4s ease;
-  overflow: hidden;
-}
-.post-entry:hover {
-  background: var(--glass-bg-hover) !important;
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  border-color: rgba(139, 184, 232, 0.5) !important;
-}
-
-.post-entry .entry-content, .post-entry .entry-header { color: var(--primary) !important; }
-.entry-title { color: #fff !important; }
-.entry-content { color: rgba(255, 255, 255, 0.9) !important; }
-
-.post-content {
-  background: var(--glass-bg) !important;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border) !important;
-  border-radius: 20px !important;
-  padding: 40px;
-  margin: 20px 0;
-  box-shadow: var(--glass-shadow);
-  color: var(--primary) !important;
-}
-.post-content h1, .post-content h2, .post-content h3 { color: #b8d4f0 !important; font-weight: 700; }
-.post-content a { color: #a0cfff !important; text-decoration: underline; text-underline-offset: 3px; }
-.post-content a:hover { color: #fff !important; }
-.post-content p, .post-content li { color: rgba(255, 255, 255, 0.92) !important; line-height: 1.8; }
-.post-content pre { background: rgba(26, 58, 92, 0.9) !important; border-radius: 12px; border: 1px solid var(--glass-border); }
-.post-content code { background: rgba(90, 155, 213, 0.3) !important; color: #b8d4f0 !important; padding: 2px 6px; border-radius: 4px; }
-.post-content blockquote { background: rgba(45, 90, 135, 0.5); border-left: 4px solid var(--navy-mid); border-radius: 0 12px 12px 0; color: var(--primary) !important; }
-
-.post-title {
-  font-size: 2.2rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, #fff 0%, #b8d4f0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.post-meta { color: rgba(255, 255, 255, 0.75) !important; }
-
-.post-tags a { 
-  background: rgba(90, 155, 213, 0.35) !important; 
-  border: 1px solid rgba(139, 184, 232, 0.5) !important; 
-  color: #d0e8ff !important; 
-  padding: 6px 14px; 
-  border-radius: 20px;
-  transition: all 0.3s ease;
-}
-.post-tags a:hover { background: rgba(90, 155, 213, 0.55) !important; transform: translateY(-2px); }
-
-.footer { 
-  background: rgba(26, 58, 92, 0.9) !important; 
-  backdrop-filter: blur(20px); 
-  border-top: 1px solid var(--glass-border);
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-.footer a { color: #a0cfff !important; }
-
-.paginav {
-  background: var(--glass-bg) !important;
-  backdrop-filter: blur(16px);
-  border: 1px solid var(--glass-border) !important;
-  border-radius: 12px !important;
-  overflow: hidden;
-}
-.paginav a {
-  color: var(--primary) !important;
-  background: transparent !important;
-}
-.paginav a:hover {
-  background: var(--glass-bg-hover) !important;
-}
-
-.share-buttons, .post-footer {
-  background: transparent !important;
-}
-.share-buttons a, .post-footer a {
-  color: var(--primary) !important;
-}
-
-.first-entry { background: var(--glass-bg) !important; backdrop-filter: blur(20px); border: 1px solid var(--glass-border) !important; border-radius: 24px !important; }
-
-.home-info {
-  background: var(--glass-bg) !important;
-  backdrop-filter: blur(16px);
-  border: 1px solid var(--glass-border) !important;
-  border-radius: 20px !important;
-  padding: 30px !important;
-  margin-bottom: 30px;
-}
-.home-info .entry-content { color: var(--primary) !important; }
-
-.toc { background: var(--glass-bg) !important; backdrop-filter: blur(16px); border: 1px solid var(--glass-border) !important; border-radius: 12px !important; }
-.toc a { color: rgba(255, 255, 255, 0.85) !important; }
-.toc a:hover { color: #b8d4f0 !important; }
-
-.post-single, article {
-  background: transparent !important;
-}
-
-/* 페이지네이션 (Next/Prev 버튼) */
-.pagination {
-  background: transparent !important;
-  gap: 10px;
-}
-.pagination a,
-.pagination .page-link,
-.pagination .next,
-.pagination .prev {
-  background: var(--glass-bg) !important;
-  color: var(--primary) !important;
-  border: 1px solid var(--glass-border) !important;
-  border-radius: 10px !important;
-  padding: 12px 24px !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  transition: all 0.3s ease;
-}
-.pagination a:hover,
-.pagination .page-link:hover,
-.pagination .next:hover,
-.pagination .prev:hover {
-  background: var(--glass-bg-hover) !important;
-  transform: translateY(-2px);
-  border-color: rgba(139, 184, 232, 0.5) !important;
-}
-
-::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: rgba(26, 58, 92, 0.3); }
-::-webkit-scrollbar-thumb { background: linear-gradient(180deg, var(--navy-mid) 0%, var(--navy-dark) 100%); border-radius: 10px; }
-
-::selection { background: rgba(90, 155, 213, 0.5); color: #fff; }
-
-@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-.post-entry { animation: fadeIn 0.6s ease forwards; }
-
-.breadcrumbs { color: rgba(255, 255, 255, 0.75) !important; }
-.breadcrumbs a { color: #a0cfff !important; }
-
-.ad-container { margin: 20px 0; text-align: center; }
-.ad-side-rail { position: fixed; top: 50%; transform: translateY(-50%); z-index: 100; }
-.ad-side-rail.left { left: 10px; }
-.ad-side-rail.right { right: 10px; }
-@media (max-width: 1400px) { .ad-side-rail { display: none; } }
-
-@media (max-width: 768px) {
-  .main { padding: 0 8px !important; max-width: 100% !important; }
-  .post-content { padding: 20px 15px !important; margin: 10px 0 !important; border-radius: 12px !important; }
-  .post-header { padding: 0 10px !important; }
-  .post-title { font-size: 1.6rem !important; line-height: 1.3 !important; }
-  .post-entry { margin-left: 0 !important; margin-right: 0 !important; border-radius: 12px !important; }
-  .post-content p, .post-content li { font-size: 1rem !important; line-height: 1.8 !important; }
-  .home-info { margin: 0 5px 20px 5px !important; padding: 20px !important; }
-}
-
-@media (max-width: 480px) {
-  .main { padding: 0 5px !important; }
-  .post-content { padding: 15px 12px !important; border-radius: 8px !important; }
-  .post-title { font-size: 1.4rem !important; }
-}
-
-/* 포스트 헤더 가독성 향상 */
-.post-header {
-  background: var(--glass-bg) !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--glass-border) !important;
-  border-radius: 16px !important;
-  padding: 30px !important;
-  margin-bottom: 20px;
-}
-.post-description {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
+    /* 광고 슬롯 (다크 블루 테마에 맞게) */
+    .ad-slot {
+        min-height: 250px;
+        background: rgba(0, 0, 0, 0.2); /* 배경보다 더 어둡게 */
+        text-align: center;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px dashed rgba(255,255,255,0.2);
+        border-radius: 8px;
+    }
 </style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var bgGradient = document.createElement('div');
-  bgGradient.id = 'bg-gradient';
-  document.body.insertBefore(bgGradient, document.body.firstChild);
+{{- /* SEO 태그 */ -}}
+{{- $image := .Params.cover.image | default .Params.thumbnail -}}
+{{- if not $image -}}
+  {{- $images := findRE "<img src=\"[^\"|\\\"]*\"" .Content -}}
+  {{- if ge (len $images) 1 -}}
+    {{- $image = (index $images 0 | replaceRE "<img src=\"" "") | replaceRE "\"" "" -}}
+  {{- end -}}
+{{- end -}}
 
-  var bgOcean = document.createElement('div');
-  bgOcean.id = 'bg-ocean';
-  document.body.insertBefore(bgOcean, document.body.firstChild);
+{{- if $image -}}
+<meta property="og:image" content="{{ $image | absURL }}" />
+<meta name="twitter:image" content="{{ $image | absURL }}" />
+<meta name="twitter:card" content="summary_large_image" />
+{{- end -}}
 
-  var bgOverlay = document.createElement('div');
-  bgOverlay.id = 'bg-overlay';
-  document.body.insertBefore(bgOverlay, document.body.firstChild);
-});
-</script>
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}" />

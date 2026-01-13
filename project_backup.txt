@@ -1,0 +1,2384 @@
+=== PROJECT STRUCTURE ===
+📄 .gitmodules
+📄 .hugo_build.lock
+📂 archetypes/
+  📄 default.md
+📄 backup_code.py
+📂 content/
+  📂 about/
+    📄 index.md
+📂 data/
+📄 hugo.toml
+📄 hugo.toml.backup
+📂 i18n/
+📂 layouts/
+  📂 _default/
+    📄 baseof.html
+  📂 partials/
+    📄 ads-bottom.html
+    📄 ads-sidebar.html
+    📄 ads-top.html
+    📄 extend_head.html
+    📄 share_icons.html
+📄 naver1df3f5822bab8b8fcbb720b3fd0055c2.html
+📄 project_backup.txt
+📂 public/
+  📄 404.html
+  📂 about/
+    📄 index.html
+  📄 ads.txt
+  📂 categories/
+    📄 index.html
+    📄 index.xml
+    📂 uncategorized/
+      📄 index.html
+      📄 index.xml
+      📂 page/
+        📂 1/
+          📄 index.html
+    📂 방송정보/
+      📄 index.html
+      📄 index.xml
+      📂 page/
+        📂 1/
+          📄 index.html
+        📂 10/
+          📄 index.html
+        📂 11/
+          📄 index.html
+        📂 12/
+          📄 index.html
+        📂 13/
+          📄 index.html
+        📂 14/
+          📄 index.html
+        📂 15/
+          📄 index.html
+        📂 16/
+          📄 index.html
+        📂 17/
+          📄 index.html
+        📂 18/
+          📄 index.html
+        📂 19/
+          📄 index.html
+        📂 2/
+          📄 index.html
+        📂 3/
+          📄 index.html
+        📂 4/
+          📄 index.html
+        📂 5/
+          📄 index.html
+        📂 6/
+          📄 index.html
+        📂 7/
+          📄 index.html
+        📂 8/
+          📄 index.html
+        📂 9/
+          📄 index.html
+    📂 오늘의-생활-꿀팁/
+      📄 index.html
+      📄 index.xml
+      📂 page/
+        📂 1/
+          📄 index.html
+        📂 2/
+          📄 index.html
+        📂 3/
+          📄 index.html
+        📂 4/
+          📄 index.html
+        📂 5/
+          📄 index.html
+        📂 6/
+          📄 index.html
+  📂 images/
+    📄 bg-pattern.png
+  📄 index.html
+  📄 index.json
+  📄 index.xml
+  📂 page/
+    📂 1/
+      📄 index.html
+    📂 10/
+      📄 index.html
+    📂 11/
+      📄 index.html
+    📂 12/
+      📄 index.html
+    📂 13/
+      📄 index.html
+    📂 14/
+      📄 index.html
+    📂 15/
+      📄 index.html
+    📂 16/
+      📄 index.html
+    📂 17/
+      📄 index.html
+    📂 18/
+      📄 index.html
+    📂 19/
+      📄 index.html
+    📂 2/
+      📄 index.html
+    📂 20/
+      📄 index.html
+    📂 21/
+      📄 index.html
+    📂 22/
+      📄 index.html
+    📂 23/
+      📄 index.html
+    📂 24/
+      📄 index.html
+    📂 25/
+      📄 index.html
+    📂 3/
+      📄 index.html
+    📂 4/
+      📄 index.html
+    📂 5/
+      📄 index.html
+    📂 6/
+      📄 index.html
+    📂 7/
+      📄 index.html
+    📂 8/
+      📄 index.html
+    📂 9/
+      📄 index.html
+  📄 robots.txt
+  📄 sitemap.xml
+  📂 tags/
+    📄 index.html
+    📄 index.xml
+📂 static/
+  📄 ads.txt
+  📂 images/
+    📄 bg-ocean.jpg
+    📄 bg-ocean2.jpg
+    📄 bg-pattern.png
+  📄 robots.txt
+📂 themes/
+  📂 PaperMod/
+    📂 .github/
+      📂 ISSUE_TEMPLATE/
+        📄 bug.yaml
+        📄 config.yml
+        📄 enhancement.yaml
+      📄 PULL_REQUEST_TEMPLATE.md
+      📂 workflows/
+        📄 gh-pages.yml
+    📄 LICENSE
+    📄 README.md
+    📄 go.mod
+    📂 i18n/
+      📄 ar.yaml
+      📄 be.yaml
+      📄 bg.yaml
+      📄 bn.yaml
+      📄 ca.yaml
+      📄 ckb.yaml
+      📄 cs.yaml
+      📄 da.yaml
+      📄 de.yaml
+      📄 el.yaml
+      📄 en.yaml
+      📄 eo.yaml
+      📄 es.yaml
+      📄 fa.yaml
+      📄 fi.yaml
+      📄 fr.yaml
+      📄 he.yaml
+      📄 hi.yaml
+      📄 hr.yaml
+      📄 hu.yaml
+      📄 id.yaml
+      📄 it.yaml
+      📄 ja.yaml
+      📄 ko.yaml
+      📄 ku.yaml
+      📄 mn.yaml
+      📄 ms.yaml
+      📄 nl.yaml
+      📄 no.yaml
+      📄 oc.yaml
+      📄 pa.yaml
+      📄 pl.yaml
+      📄 pnb.yaml
+      📄 pt.yaml
+      📄 ro.yaml
+      📄 ru.yaml
+      📄 sk.yaml
+      📄 sv.yaml
+      📄 sw.yaml
+      📄 th.yaml
+      📄 tr.yaml
+      📄 uk.yaml
+      📄 uz.yaml
+      📄 vi.yaml
+      📄 zh-tw.yaml
+      📄 zh.yaml
+    📂 images/
+      📄 screenshot.png
+      📄 tn.png
+    📂 layouts/
+      📄 404.html
+      📂 _default/
+        📂 _markup/
+          📄 render-image.html
+        📄 archives.html
+        📄 baseof.html
+        📄 index.json
+        📄 list.html
+        📄 rss.xml
+        📄 search.html
+        📄 single.html
+        📄 terms.html
+      📂 partials/
+        📄 anchored_headings.html
+        📄 author.html
+        📄 breadcrumbs.html
+        📄 comments.html
+        📄 cover.html
+        📄 edit_post.html
+        📄 extend_footer.html
+        📄 extend_head.html
+        📄 footer.html
+        📄 head.html
+        📄 header.html
+        📄 home_info.html
+        📄 index_profile.html
+        📄 post_canonical.html
+        📄 post_meta.html
+        📄 post_nav_links.html
+        📄 share_icons.html
+        📄 social_icons.html
+        📄 svg.html
+        📂 templates/
+          📂 _funcs/
+            📄 get-page-images.html
+          📄 opengraph.html
+          📄 schema_json.html
+          📄 twitter_cards.html
+        📄 toc.html
+        📄 translation_list.html
+      📄 robots.txt
+      📂 shortcodes/
+        📄 collapse.html
+        📄 figure.html
+        📄 inTextImg.html
+        📄 ltr.html
+        📄 rawhtml.html
+        📄 rtl.html
+    📄 theme.toml
+
+
+==================================================
+
+### FILE: archetypes/default.md
+--------------------------------------------------
++++
+date = '{{ .Date }}'
+draft = true
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
++++
+
+==================================================
+
+### FILE: content/about/index.md
+--------------------------------------------------
+---
+title: "소개"
+layout: "single"
+url: "/about/"
+summary: "핫이슈 블로그 소개"
+ShowToc: false
+ShowBreadCrumbs: false
+---
+
+## 핫이슈 블로그에 오신 것을 환영합니다! 👋
+
+이 블로그는 **최신 트렌드**와 **핫이슈**를 빠르게 전달하는 공간입니다.
+
+---
+
+### 📌 다루는 주제
+
+- 🔥 **핫이슈** - 지금 가장 뜨거운 소식
+- 💻 **기술/IT** - 최신 기술 트렌드와 개발 이야기
+- 📱 **디지털 라이프** - 유용한 앱, 서비스 소개
+- 🌍 **트렌드** - 세상을 바꾸는 흥미로운 이야기들
+
+---
+
+### 🎯 블로그 목표
+
+> "복잡한 정보를 쉽고 빠르게 전달한다"
+
+바쁜 현대인들을 위해 핵심만 담아 전달합니다.
+
+---
+
+### 📬 연락처
+
+궁금한 점이나 제안사항이 있으시면 언제든 연락주세요!
+
+- **이메일**: your-email@example.com
+- **GitHub**: [your-github](https://github.com/your-github)
+
+---
+
+### ⚡ 기술 스택
+
+이 블로그는 다음 기술로 만들어졌습니다:
+
+| 구분 | 기술 |
+|------|------|
+| 프레임워크 | Hugo |
+| 테마 | PaperMod (커스텀) |
+| 호스팅 | GitHub Pages / Vercel |
+| 스타일 | 노션 스타일 미니멀 |
+
+---
+
+*© 2025 핫이슈 블로그. All rights reserved.*
+
+==================================================
+
+### FILE: themes/PaperMod/.github/ISSUE_TEMPLATE/bug.yaml
+--------------------------------------------------
+name: Bug Report 🐞
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report :)
+        - Kindly **DO NOT** ask for instructions.
+        - Use [Discussions](https://github.com/adityatelange/hugo-PaperMod/discussions) section if you have a query or doubts or any other relevant question.
+        - You may join [Discord community](https://discord.gg/ahpmTvhVmp) to interact with fellow contributors and users
+        - Read project's [Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki) for detailed documentation.
+        - Read project's [FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) section for Frequently asked questions.
+        - Search for previous [Issues](https://github.com/adityatelange/hugo-PaperMod/issues)/[Pull Requests](https://github.com/adityatelange/hugo-PaperMod/pulls) if this issue is already reported or fix has been created.
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: A bug happened! Here are the screenshots.. Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How to reproduce this issue. Here are the steps...
+      placeholder:  |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: hugo_version
+    attributes:
+      label: Hugo Version
+      description: What version of Hugo are you running?
+      options:
+        - Hugo >= 0.146.0 (Recommended - Minimum version required for PaperMod)
+        - Hugo < 0.146.0  (Incompatible - Not recommended to build PaperMod on lower versions)
+    validations:
+      required: true
+  - type: input
+    id: papermod_version
+    attributes:
+      label: PaperMod Version
+      description: What version of PaperMod are you running?
+      placeholder:  |
+        PaperMod v7.0 or
+        Branch master or
+        Commit-id: 3f50861a0ced88f9b614a43662edeb4c0bc45da8
+    validations:
+      required: true
+  - type: dropdown
+    id: browser_type
+    attributes:
+      label: What kind of devices are you seeing the problem on?
+      multiple: true
+      options:
+        - Mobile
+        - Desktop
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+    validations:
+      required: false
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser Version
+      description: Please add browser version or enter user agent string (navigator.userAgent)
+      placeholder: ex. Google Chrome 86.0
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository/Source Code link where this issue can be reproduced
+      description: Please add url of the repository where this issue can be reproduced
+      placeholder: https://github.com/<username>/<repo name>
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/adityatelange/hugo-PaperMod?tab=coc-ov-file#readme).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+    validations:
+      required: true
+
+==================================================
+
+### FILE: themes/PaperMod/.github/ISSUE_TEMPLATE/config.yml
+--------------------------------------------------
+blank_issues_enabled: false
+contact_links:
+  - name: PaperMod Discussions
+    url: https://github.com/adityatelange/hugo-PaperMod/discussions
+    about: Please ask and answer questions/doubts here, DO NOT open an issue for questions.
+
+==================================================
+
+### FILE: themes/PaperMod/.github/ISSUE_TEMPLATE/enhancement.yaml
+--------------------------------------------------
+name: Enhancement 🚀
+description: Propose a new feature or change for enhancing the experience.
+title: "[Enhancement]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this enhancement form :)
+        - Use [Discussions](https://github.com/adityatelange/hugo-PaperMod/discussions) section if you have a query or doubts or any other relevant question.
+        - You may join [Discord community](https://discord.gg/ahpmTvhVmp) to interact with fellow contributors and users
+        - Read project's [Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki) for detailed documentation.
+        - Read project's [FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) section for Frequently asked questions.
+        - Search for previous [Issues](https://github.com/adityatelange/hugo-PaperMod/issues)/[Pull Requests](https://github.com/adityatelange/hugo-PaperMod/pulls) if this issue is already reported or fix has been created.
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What you'd like to propose?
+      description:
+      placeholder:
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/adityatelange/hugo-PaperMod?tab=coc-ov-file#readme).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+    validations:
+      required: true
+==================================================
+
+### FILE: themes/PaperMod/.github/PULL_REQUEST_TEMPLATE.md
+--------------------------------------------------
+<!--
+
+## READ BEFORE OPENING A PR
+
+Thank you for contributing to hugo-PaperMod!
+Please fill out the following questions to make it easier for us to review your
+changes. You do not need to check all the boxes below.
+
+**NOTE**: PaperMod does not have any external dependencies fetched from 3rd party
+CDN servers. However we do have custom Head/Footer extender templates which you can use
+to add those to your website.
+https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#custom-head--footer
+
+-->
+
+
+**What does this PR change? What problem does it solve?**
+
+<!--
+Describe the changes and their purpose here, as detailed as and if needed.
+
+Please do not add 2 unrelated changes in a single PR as it is difficult to track/revert those in future.
+-->
+
+
+**Was the change discussed in an issue or in the Discussions before?**
+
+<!--
+Link issues and relevant Discussions posts here.
+
+If this PR resolves an issue on GitHub, use "Closes #1234" so that the issue
+is closed automatically when this PR is merged.
+-->
+
+
+## PR Checklist
+
+- [ ] This change adds/updates translations and I have used the [template present here](https://github.com/adityatelange/hugo-PaperMod/wiki/Translations#want-to-add-your-language-).
+- [ ] I have enabled [maintainer edits for this PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork).
+- [ ] I have verified that the code works as described/as intended.
+- [ ] This change adds a Social Icon which has a permissive license to use it.
+- [ ] This change **does not** include any CDN resources/links.
+- [ ] This change **does not** include any unrelated scripts such as bash and python scripts.
+- [ ] This change updates the overridden internal templates from HUGO's repository.
+
+==================================================
+
+### FILE: themes/PaperMod/.github/workflows/gh-pages.yml
+--------------------------------------------------
+name: Deploy Hugo PaperMod Demo to Pages
+
+on:
+  push:
+    paths-ignore:
+      - "images/**"
+      - "LICENSE"
+      - "README.md"
+    branches:
+      - master
+      - exampleSite
+  workflow_dispatch:
+    # manual run
+    inputs:
+      hugoVersion:
+        description: "Hugo Version"
+        required: false
+        default: "0.146.0"
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: ${{ github.event.inputs.hugoVersion || '0.146.0' }}
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: exampleSite
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Get Theme
+        run: git submodule update --init --recursive
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --buildDrafts --gc \
+            --baseURL ${{ steps.pages.outputs.base_url }}
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+==================================================
+
+### FILE: themes/PaperMod/README.md
+--------------------------------------------------
+<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
+
+<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
+<br>
+
+> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).<br>
+> The goal of this project is to add more features and customization to the og theme.
+
+**Documentation** can be found here: [**📚 Wiki**](https://github.com/adityatelange/hugo-PaperMod/wiki)
+
+**ExampleSite** can be found here: [**exampleSite**](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+
+[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.146.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.146.0)
+[![Discord](https://img.shields.io/discord/971046860317921340?label=Discord&logo=discord)](https://discord.gg/ahpmTvhVmp)
+[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
+![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
+[![X (formerly Twitter) URL](https://img.shields.io/badge/-Share%20on%20X-gray?style=flat&logo=x)](https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod)
+
+
+---
+
+<p align="center">
+  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
+</p>
+
+---
+
+## Features/Mods 💥
+
+-   Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
+-   3 Modes:
+    -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
+    -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
+    -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
+-   Table of Content Generation (newer implementation).
+-   Archive of posts.
+-   Social Icons (home-info and profile-mode).
+-   Social-Media Share buttons on posts.
+-   Menu location indicator.
+-   Multilingual support. (with language selector).
+-   Taxonomies.
+-   Cover image for each post (with Responsive image support).
+-   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
+-   SEO Friendly.
+-   Multiple Author support.
+-   Search Page with Fuse.js
+-   Other Posts suggestion below a post
+-   Breadcrumb Navigation.
+-   Code Block Copy buttons.
+-   Hugo's Chroma syntax highlighter.
+-   No webpack, nodejs and other dependencies are required to edit the theme.
+
+Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
+
+---
+
+## Install/Update 📥
+
+Read Wiki For More Details => **[PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)**
+
+---
+
+## FAQs / How To's Guide 🙋
+
+Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
+
+---
+
+## Social-Icons/Share-Icons 🖼️
+
+Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)**
+
+---
+
+## Release Changelog 📃
+
+Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
+
+---
+
+## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
+
+---
+
+## Support 🫶
+
+-   Star 🌟 this repository.
+-   Help spread the word about PaperMod by sharing it on social media and recommending it to your friends. 🗣️
+-   You can also sponsor 🏅 on [Github Sponsors](https://github.com/sponsors/adityatelange) / [Ko-Fi](https://ko-fi.com/adityatelange).
+
+---
+
+## Special Thanks 🌟
+
+-   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
+-   [**Fuse.js**](https://github.com/krisk/fuse)
+-   [**Feather Icons**](https://github.com/feathericons/feather)
+-   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
+-   **All Contributors and Supporters**
+
+---
+
+## Stargazers over time 📈
+
+[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg?background=%23ffffff00&axis=%23858585&line=%236b63ff)](https://starchart.cc/adityatelange/hugo-PaperMod)
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ar.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "السابق"
+
+- id: next_page
+  translation: "التالي"
+
+- id: read_time
+  translation:
+    one: "دقيقة واحدة"
+    two: "دقيقتان"
+    few: "بضع ثوان"
+    zero: "الآن"
+    other: "دقائق {{ .Count }}"
+
+- id: toc
+  translation: "فهرس المحتوى"
+
+- id: translations
+  translation: "ترجمات أخرى"
+  
+- id: home
+  translation: "الصفحة الرئيسية"
+
+- id: code_copied
+  translation: "تم النسخ!"
+
+- id: code_copy
+  translation: "نسخ الكود"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/be.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Папярэдняя"
+
+- id: next_page
+  translation: "Наступная"
+
+- id: read_time
+  translation:
+    zero: "0 хвілін"
+    one: "1 хвіліна"
+    few: "{{ .Count }} хвіліны"
+    many: "{{ .Count }} хвілін"
+    other: "{{ .Count }} хвілін"
+
+- id: words
+  translation:
+    zero: "няма слоў"
+    one: "1 слова"
+    few: "{{ .Count }} слова"
+    many: "{{ .Count }} слоў"
+    other: "{{ .Count }} слова"
+
+- id: toc
+  translation: "Змест"
+
+- id: translations
+  translation: "Пераклады"
+
+- id: home
+  translation: "Галоўная"
+
+- id: edit_post
+  translation: "Рэдагаваць"
+
+- id: code_copy
+  translation: "капіяваць"
+
+- id: code_copied
+  translation: "скапіявана!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/bg.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Предишна страница"
+
+- id: next_page
+  translation: "Следваща страница"
+
+- id: read_time
+  translation:
+    one : "1 мин"
+    other: "{{ .Count }} мин"
+
+- id: toc
+  translation: "Съдържание"
+
+- id: translations
+  translation: "Преводи"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/bn.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "পূর্ববর্তী"
+
+- id: next_page
+  translation: "পরবর্তী"
+
+- id: read_time
+  translation:
+    one : "১ মিনিট"
+    other: "{{ .Count }} মিনিট"
+    
+- id: words
+  translation:
+    one : "১ টি শব্দ"
+    other: "{{ .Count }} টি শব্দ"
+
+- id: toc
+  translation: "সূচিপত্র"
+
+- id: translations
+  translation: "অনুবাদসমূহ"
+
+- id: home
+  translation: "হোম"
+
+- id: edit_post
+  translation: "সম্পাদনা করুন"
+
+- id: code_copy
+  translation: "কপি করুন"
+
+- id: code_copied
+  translation: "কপি হয়েছে!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ca.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Pàgina anterior"
+
+- id: next_page
+  translation: "Pàgina següent"
+
+- id: read_time
+  translation:
+    one : "1 minut"
+    other: "{{ .Count }} minuts"
+
+- id: words
+  translation:
+    one : "paraula"
+    other: "{{ .Count }} paraules"
+
+- id: toc
+  translation: "Taula de Continguts"
+
+- id: translations
+  translation: "Traduccions"
+
+- id: home
+  translation: "Inici"
+
+- id: edit_post
+  translation: "Editar"
+
+- id: code_copy
+  translation: "copiar"
+
+- id: code_copied
+  translation: "copiat!"
+==================================================
+
+### FILE: themes/PaperMod/i18n/ckb.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "پەڕەی پێشتر"
+
+- id: next_page
+  translation: "پەڕەی دواتر"
+
+- id: read_time
+  translation:
+    one : "1 خولەک"
+    other: "{{ .Count }} خولەک"
+
+- id: toc
+  translation: "پێڕست"
+
+- id: translations
+  translation: "وەرگێڕانەکان"
+
+- id: home
+  translation: "ماڵەوە"
+
+- id: code_copy
+  translation: "لەبەری بگرەوە"
+
+- id: code_copied
+  translation: "لەبەر گیرایەوە!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/cs.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Předchozí"
+
+- id: next_page
+  translation: "Další"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "slovo"
+    other: "{{ .Count }} slov"
+
+- id: toc
+  translation: "Obsah"
+
+- id: translations
+  translation: "Překlady"
+
+- id: home
+  translation: "Domů"
+
+- id: edit_post
+  translation: "Upravit"
+
+- id: code_copy
+  translation: "kopírovat"
+
+- id: code_copied
+  translation: "zkopírováno!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/da.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Forrige Side"
+
+- id: next_page
+  translation: "Næste Side"
+
+- id: read_time
+  translation:
+    one: "1 min"
+    other: "{{ .Count }} min"
+
+- id: toc
+  translation: "Indholdsfortegnelse"
+
+- id: translations
+  translation: "Oversættelser"
+
+- id: home
+  translation: "Start"
+
+- id: edit_post
+  translation: "Rediger"
+
+- id: code_copy
+  translation: "kopier"
+
+- id: code_copied
+  translation: "kopieret!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/de.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Vorherige"
+
+- id: next_page
+  translation: "Nächste"
+
+- id: read_time
+  translation:
+    one: "1 Minute"
+    other: "{{ .Count }} Minuten"
+
+- id: words
+  translation:
+    one : "Wort"
+    other: "{{ .Count }} Wörter"
+
+- id: toc
+  translation: "Inhaltsverzeichnis"
+
+- id: translations
+  translation: "Übersetzungen"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Bearbeiten"
+
+- id: code_copy
+  translation: "Kopieren"
+
+- id: code_copied
+  translation: "Kopiert!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/el.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Προηγούμενο"
+
+- id: next_page
+  translation: "Επόμενο"
+
+- id: read_time
+  translation:
+    one: "1 λεπτό"
+    other: "{{ .Count }} λεπτά"
+
+- id: words
+  translation:
+    one: "λέξη"
+    other: "{{ .Count }} λέξεις"
+
+- id: toc
+  translation: "Πίνακας Περιεχομένων"
+
+- id: translations
+  translation: "Μεταφράσεις"
+
+- id: home
+  translation: "Αρχική"
+
+- id: edit_post
+  translation: "Επεξεργασία"
+
+- id: code_copy
+  translation: "αντιγραφή"
+
+- id: code_copied
+  translation: "αντιγράφηκε!"
+==================================================
+
+### FILE: themes/PaperMod/i18n/en.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Prev"
+
+- id: next_page
+  translation: "Next"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} words"
+
+- id: toc
+  translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Edit"
+
+- id: code_copy
+  translation: "copy"
+
+- id: code_copied
+  translation: "copied!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/eo.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "antaŭa paĝo"
+
+- id: next_page
+  translation: "sekva paĝo"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: toc
+  translation: "Enhavo"
+
+- id: translations
+  translation: "tradukoj"
+
+- id: home
+  translation: "ĉefpaĝo"
+
+- id: code_copy
+  translation: "kopii"
+
+- id: code_copied
+  translation: "kopiite!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/es.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Anterior"
+
+- id: next_page
+  translation: "Siguiente"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "palabra"
+    other: "{{ .Count }} palabras"
+
+- id: toc
+  translation: "Tabla de Contenidos"
+
+- id: translations
+  translation: "Traducciones"
+
+- id: home
+  translation: "Inicio"
+
+- id: edit_post
+  translation: "Editar"
+
+- id: code_copy
+  translation: "copiar"
+
+- id: code_copied
+  translation: "¡copiado!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/fa.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "صفحه قبلی"
+
+- id: next_page
+  translation: "صفحه بعدی"
+
+- id: read_time
+  translation:
+    one: "۱ دقیقه"
+    other: "{{ .Count }} دقیقه"
+
+- id: toc
+  translation: "فهرست مطالب"
+
+- id: translations
+  translation: "ترجمه ها"
+
+- id: home
+  translation: "خانه"
+
+- id: edit_post
+  translation: "ویرایش"
+
+- id: code_copy
+  translation: "کپی"
+
+- id: code_copied
+  translation: "کپی شد!"
+==================================================
+
+### FILE: themes/PaperMod/i18n/fi.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Edellinen"
+
+- id: next_page
+  translation: "Seuraava"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} minuuttia"
+
+- id: words
+  translation:
+    one : "sana"
+    other: "{{ .Count }} sanaa"
+
+- id: toc
+  translation: "Sisällysluettelo"
+
+- id: translations
+  translation: "Käännökset"
+
+- id: home
+  translation: "Etusivu"
+
+- id: edit_post
+  translation: "Muokkaa"
+
+- id: code_copy
+  translation: "Kopioi"
+
+- id: code_copied
+  translation: "Kopioitu!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/fr.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Précédent"
+
+- id: next_page
+  translation: "Suivant"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "mot"
+    other: "{{ .Count }} mots"
+
+- id: toc
+  translation: "Table des matières"
+
+- id: translations
+  translation: "Traductions"
+
+- id: home
+  translation: "Accueil"
+
+- id: edit_post
+  translation: "Modifier"
+
+- id: code_copy
+  translation: "Copier"
+
+- id: code_copied
+  translation: "Copié !"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/he.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "הקודם"
+
+- id: next_page
+  translation: "הבא"
+
+- id: read_time
+  translation:
+    one: "דקה אחת"
+    other: "{{ .Count }} דקות"
+
+- id: words
+  translation:
+    one: "מילה אחת"
+    other: "{{ .Count }} מילים"
+
+- id: toc
+  translation: "תוכן עניינים"
+
+- id: translations
+  translation: "תרגומים"
+
+- id: home
+  translation: "בית"
+
+- id: edit_post
+  translation: "ערוך"
+
+- id: code_copy
+  translation: "העתק"
+
+- id: code_copied
+  translation: "הועתק!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/hi.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "पिछला"
+
+- id: next_page
+  translation: "अगला"
+
+- id: read_time
+  translation:
+    one : "एक मिनट"
+    other: "{{ .Count }} मिनट"
+
+- id: edit_post
+  translation: "सुधारें"
+
+- id: toc
+  translation: "विषय - सूची"
+
+- id: translations
+  translation: "अनुवाद"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/hr.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Prethodna stranica"
+
+- id: next_page
+  translation: "Sljedeća stranica"
+
+- id: read_time
+  translation:
+    one : "1 minuta"
+    other: "{{ .Count }} minute"
+
+- id: words
+  translation:
+    one : "riječ"
+    other: "{{ .Count }} riječi"
+
+- id: toc
+  translation: "Tablica Sadržaja"
+
+- id: translations
+  translation: "Prijevodi"
+
+- id: home
+  translation: "Početna stranica"
+
+- id: edit_post
+  translation: "Promjeni"
+
+- id: code_copy
+  translation: "kopiraj"
+
+- id: code_copied
+  translation: "kopirano!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/hu.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Előző oldal"
+
+- id: next_page
+  translation: "Következő oldal"
+
+- id: read_time
+  translation:
+    one: "1 perc"
+    other: "{{ .Count }} perc"
+
+- id: toc
+  translation: "Tartalomjegyzék"
+
+- id: translations
+  translation: "Fordítások"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/id.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Sebelumnya"
+
+- id: next_page
+  translation: "Selanjutnya"
+
+- id: read_time
+  translation:
+    one : "1 menit"
+    other: "{{ .Count }} menit"
+
+- id: words
+  translation:
+    one : "kata"
+    other: "{{ .Count }} kata"
+
+- id: toc
+  translation: "Daftar isi"
+
+- id: translations
+  translation: "Terjemahan"
+
+- id: home
+  translation: "Beranda"
+
+- id: edit_post
+  translation: "Sunting"
+
+- id: code_copy
+  translation: "salin"
+
+- id: code_copied
+  translation: "disalin!"
+==================================================
+
+### FILE: themes/PaperMod/i18n/it.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Precedente"
+
+- id: next_page
+  translation: "Successivo"
+
+- id: read_time
+  translation:
+    one: "1 minuto"
+    other: "{{ .Count }} minuti"
+
+- id: words
+  translation:
+    one : "parola"
+    other: "{{ .Count }} parole"
+
+- id: toc
+  translation: "Indice contenuti"
+
+- id: translations
+  translation: "Traduzioni"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Modifica"
+
+- id: code_copy
+  translation: "copia"
+
+- id: code_copied
+  translation: "copiato!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ja.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "前へ"
+
+- id: next_page
+  translation: "次へ"
+
+- id: read_time
+  translation:
+    one : "1 分"
+    other: "{{ .Count }} 分"
+
+- id: words
+  translation:
+    one: "文字"
+    other: "{{ .Count }} 文字"
+
+- id: toc
+  translation: "目次"
+
+- id: translations
+  translation: "言語"
+
+- id: home
+  translation: "ホーム"
+
+- id: edit_post
+  translation: "編集"
+
+- id: code_copy
+  translation: "コピー"
+
+- id: code_copied
+  translation: "コピーされました!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ko.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "이전 페이지"
+
+- id: next_page
+  translation: "다음 페이지"
+
+- id: read_time
+  translation:
+    one : "1 분"
+    other: "{{ .Count }} 분"
+
+- id: words
+  translation:
+    one : "단어"
+    other: "{{ .Count }} 단어"
+
+- id: toc
+  translation: "목차"
+
+- id: translations
+  translation: "번역"
+
+- id: home
+  translation: "홈"
+
+- id: edit_post
+  translation: "편집"
+
+- id: code_copy
+  translation: "복사"
+
+- id: code_copied
+  translation: "복사 완료!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ku.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Rûpela Paş"
+
+- id: next_page
+  translation: "Rûpela Pêş"
+
+- id: read_time
+  translation:
+    one : "1 xulek"
+    other: "{{ .Count }} xulek"
+
+- id: toc
+  translation: "Pêrist"
+
+- id: translations
+  translation: "Wergeran"
+
+- id: home
+  translation: "Xanî"
+
+- id: code_copy
+  translation: "Jê bigire"
+
+- id: code_copied
+  translation: "Hat jêgirtin!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/mn.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Ѳмнѳх"
+
+- id: next_page
+  translation: "Дараах"
+
+- id: read_time
+  translation:
+    one : "1 МИН"
+    other: "{{ .Count }} МИН"
+
+- id: toc
+  translation: "Агуулга"
+
+- id: translations
+  translation: "Орчуулга"
+
+- id: home
+  translation: "Нүүр"
+
+- id: code_copy
+  translation: "хуулах"
+
+- id: code_copied
+  translation: "хуулсан!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ms.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Halaman Sebelumnya"
+
+- id: next_page
+  translation: "Halaman Seterusnya"
+
+- id: read_time
+  translation:
+    one: "1 minit"
+    other: "{{ .Count }} minit"
+
+- id: toc
+  translation: "Isi Kandungan"
+
+- id: translations
+  translation: "Terjemahan"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Sunting"
+
+- id: code_copy
+  translation: "Salin"
+
+- id: code_copied
+  translation: "Disalin!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/nl.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Vorige"
+
+- id: next_page
+  translation: "Volgende"
+
+- id: read_time
+  translation:
+      one: "1 min"
+      other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "woord"
+    other: "{{ .Count }} woorden"
+
+- id: toc
+  translation: "Inhoudsopgave"
+
+- id: translations
+  translation: "Vertalingen"
+
+- id: home
+  translation: "Startpagina"
+
+- id: edit_post
+  translation: "Bewerk"
+
+- id: code_copy
+  translation: "kopieer"
+
+- id: code_copied
+  translation: "gekopieerd!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/no.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Forrige Side"
+
+- id: next_page
+  translation: "Neste Side"
+
+- id: read_time
+  translation:
+    one: "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one: "ord"
+    other: "{{ .Count }} ord"
+
+- id: toc
+  translation: "Innholdsfortegnelse"
+
+- id: translations
+  translation: "Oversettelser"
+
+- id: home
+  translation: "Hjem"
+
+- id: edit_post
+  translation: "Rediger"
+
+- id: code_copy
+  translation: "Kopier"
+
+- id: code_copied
+  translation: "Kopiert!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/oc.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Prec."
+
+- id: next_page
+  translation: "Seg."
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "mot"
+    other: "{{ .Count }} motss"
+
+- id: toc
+  translation: "Taula de contengut"
+
+- id: translations
+  translation: "Traduccions"
+
+- id: home
+  translation: "Acuèlh"
+
+- id: edit_post
+  translation: "Modificar"
+
+- id: code_copy
+  translation: "copiar"
+
+- id: code_copied
+  translation: "copiat !"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/pa.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "ਪਿਛਲਾ"
+
+- id: next_page
+  translation: "ਅਗਲਾ"
+
+- id: read_time
+  translation:
+    one: "1 ਮਿੰਟ"
+    other: "{{ .Count }} ਮਿੰਟ"
+
+- id: words
+  translation:
+    one: "ਸ਼ਬਦ"
+    other: "{{ .Count }} ਸ਼ਬਦ"
+
+- id: toc
+  translation: "ਤਤਕਰਾ"
+
+- id: translations
+  translation: "ਅਨੁਵਾਦ"
+
+- id: home
+  translation: "ਘਰ"
+
+- id: edit_post
+  translation: "ਸੋਧ"
+
+- id: code_copy
+  translation: "ਕਾਪੀ"
+
+- id: code_copied
+  translation: "ਕਾਪੀ ਕੀਤੀ ਗਈ!!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/pl.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Poprzednia"
+
+- id: next_page
+  translation: "Następna"
+
+- id: read_time
+  translation:
+      one: "1 min"
+      other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "słowo"
+    other: "{{ .Count }} słów"
+
+- id: toc
+  translation: "Spis treści"
+
+- id: translations
+  translation: "Tłumaczenia"
+
+- id: home
+  translation: "Strona Główna"
+
+- id: edit_post
+  translation: "Edytuj"
+
+- id: code_copy
+  translation: "Kopiuj"
+
+- id: code_copied
+  translation: "Skopiowano!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/pnb.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "پِچھلا"
+
+- id: next_page
+  translation: "اگلا"
+
+- id: read_time
+  translation:
+    one: "ایک منٹ"
+    other: "مِنٹ {{ .Count }}"
+
+- id: words
+  translation:
+    one: "لفظ"
+    other: "لفظ {{ .Count }}"
+
+- id: toc
+  translation: "تتکرا"
+
+- id: translations
+  translation: "انوواد"
+
+- id: home
+  translation: "گھر"
+
+- id: edit_post
+  translation: "سودھ"
+
+- id: code_copy
+  translation: "کاپی"
+
+- id: code_copied
+  translation: "کاپی کیتی گئی!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/pt.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Página Anterior"
+
+- id: next_page
+  translation: "Próxima Página"
+
+- id: read_time
+  translation:
+    one: "1 minuto"
+    other: "{{ .Count }} minutos"
+
+- id: words
+  translation:
+    one : "palavra"
+    other: "{{ .Count }} palavras"
+
+- id: toc
+  translation: "Conteúdo"
+
+- id: translations
+  translation: "Traduções"
+  
+- id: home
+  translation: "Início"
+
+- id: edit_post
+  translation: "Editar"
+
+- id: code_copy
+  translation: "copiar"
+
+- id: code_copied
+  translation: "copiado!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ro.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Înapoi"
+
+- id: next_page
+  translation: "Înainte"
+
+- id: read_time
+  translation:
+    one : "1 minut"
+    other: "{{ .Count }} minute"
+
+- id: words
+  translation:
+    one : "cuvânt"
+    other: "{{ .Count }} cuvinte"
+
+- id: toc
+  translation: "Sumar"
+
+- id: translations
+  translation: "Traduceri"
+
+- id: home
+  translation: "Acasă"
+
+- id: edit_post
+  translation: "Editează"
+
+- id: code_copy
+  translation: "copiază"
+
+- id: code_copied
+  translation: "copiat!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/ru.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Предыдущая"
+
+- id: next_page
+  translation: "Следующая"
+
+- id: read_time
+  translation:
+    zero: "0 минут"
+    one: "1 минута"
+    few: "{{ .Count }} минуты"
+    many: "{{ .Count }} минут"
+    other: "{{ .Count }} минута"
+
+- id: words
+  translation:
+    zero: "0 слов"
+    one: "1 слово"
+    few: "{{ .Count }} слова"
+    many: "{{ .Count }} слов"
+    other: "{{ .Count }} слово"
+
+- id: toc
+  translation: "Оглавление"
+
+- id: translations
+  translation: "Переводы"
+
+- id: home
+  translation: "Главная"
+
+- id: edit_post
+  translation: "Редактировать"
+
+- id: code_copy
+  translation: "копировать"
+
+- id: code_copied
+  translation: "скопировано!"
+==================================================
+
+### FILE: themes/PaperMod/i18n/sk.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Predch"
+
+- id: next_page
+  translation: "Ďaľší"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "slovo"
+    other: "{{ .Count }} slov"
+
+- id: toc
+  translation: "Obsah"
+
+- id: translations
+  translation: "Preklady"
+
+- id: home
+  translation: "Domov"
+
+- id: edit_post
+  translation: "Upraviť"
+
+- id: code_copy
+  translation: "kopírovať"
+
+- id: code_copied
+  translation: "skopírované!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/sv.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Förra Sidan"
+
+- id: next_page
+  translation: "Nästa Sida"
+
+- id: read_time
+  translation:
+    one: "1 min"
+    other: "{{ .Count }} min"
+
+- id: toc
+  translation: "Innehållsförteckning"
+
+- id: translations
+  translation: "Översättningar"
+
+- id: home
+  translation: "Hem"
+
+- id: edit_post
+  translation: "Redigera"
+
+- id: code_copy
+  translation: "kopiera"
+
+- id: code_copied
+  translation: "kopierad!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/sw.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Uliopita"
+
+- id: next_page
+  translation: "Ujao"
+
+- id: read_time
+  translation:
+    one : "dakika 1"
+    other: "dakika {{ .Count }}"
+
+- id: words
+  translation:
+    one : "neno"
+    other: "maneno {{ .Count }}"
+
+- id: toc
+  translation: "Jedwali la Yaliyomo"
+
+- id: translations
+  translation: "Tafsiri"
+
+- id: home
+  translation: "Mwanzo"
+
+- id: edit_post
+  translation: "Hariri"
+
+- id: code_copy
+  translation: "nakili"
+
+- id: code_copied
+  translation: "nakiliwa!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/th.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "ก่อนหน้า"
+
+- id: next_page
+  translation: "ถัดไป"
+
+- id: read_time
+  translation:
+    one : "1 นาที"
+    other: "{{ .Count }} นาที"
+
+- id: words
+  translation:
+    one : "คำ"
+    other: "{{ .Count }} คำ"
+
+- id: toc
+  translation: "สารบัญ"
+
+- id: translations
+  translation: "การแปล"
+
+- id: home
+  translation: "หน้าหลัก"
+
+- id: edit_post
+  translation: "แก้ไข"
+
+- id: code_copy
+  translation: "คัดลอก"
+
+- id: code_copied
+  translation: "คัดลอกแล้ว!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/tr.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Önceki"
+
+- id: next_page
+  translation: "Sonraki"
+
+- id: read_time
+  translation:
+    one : "1 dk"
+    other: "{{ .Count }} dk"
+
+- id: words
+  translation:
+    one : "sözcük"
+    other: "{{ .Count }} sözcük"
+
+- id: toc
+  translation: "İçindekiler"
+
+- id: translations
+  translation: "Çeviriler"
+
+- id: home
+  translation: "Ana Sayfa"
+
+- id: edit_post
+  translation: "Düzenle"
+
+- id: code_copy
+  translation: "Kopyala"
+
+- id: code_copied
+  translation: "Kopyalandı!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/uk.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Попередня"
+
+- id: next_page
+  translation: "Наступна"
+
+- id: read_time
+  translation:
+    one : "1 хвилина"
+    other: "{{ .Count }} хвилин"
+
+- id: toc
+  translation: "Зміст"
+
+- id: translations
+  translation: "Переклади"
+
+- id: home
+  translation: "Головна"
+
+- id: code_copy
+  translation: "копіювати"
+
+- id: code_copied
+  translation: "скопійовано!"
+==================================================
+
+### FILE: themes/PaperMod/i18n/uz.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Oldingi sahifa"
+
+- id: next_page
+  translation: "Keyingi sahifa"
+
+- id: read_time
+  translation:
+    one : "Bir daqiqa"
+    other: "{{ .Count }} daqiqa"
+
+- id: toc
+  translation: "Mundarija"
+
+- id: translations
+  translation: "Tarjimalar"
+
+- id: home
+  translation: "Bosh sahifa"
+  
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/vi.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "Trang trước"
+
+- id: next_page
+  translation: "Trang tiếp theo"
+
+- id: read_time
+  translation:
+    one: "1 phút"
+    other: "{{ .Count }} phút"
+
+- id: words
+  translation:
+    one: "từ"
+    other: "{{ .Count }} từ"
+
+- id: toc
+  translation: "Mục lục"
+
+- id: translations
+  translation: "Bản dịch"
+
+- id: home
+  translation: "Trang chủ"
+
+- id: edit_post
+  translation: "Chỉnh sửa"
+
+- id: code_copy
+  translation: "Sao chép"
+
+- id: code_copied
+  translation: "Đã sao chép!"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/zh-tw.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "上一頁"
+
+- id: next_page
+  translation: "下一頁"
+
+- id: read_time
+  translation:
+    one : "1 分鐘"
+    other: "{{ .Count }} 分鐘"
+
+- id: words
+  translation:
+    one: "字"
+    other: "{{ .Count }} 字"
+
+- id: toc
+  translation: "目錄"
+
+- id: translations
+  translation: "語言"
+
+- id: home
+  translation: "首頁"
+
+- id: edit_post
+  translation: "編輯"
+
+- id: code_copy
+  translation: "複製"
+
+- id: code_copied
+  translation: "已複製！"
+
+==================================================
+
+### FILE: themes/PaperMod/i18n/zh.yaml
+--------------------------------------------------
+- id: prev_page
+  translation: "上一页"
+
+- id: next_page
+  translation: "下一页"
+
+- id: read_time
+  translation:
+    one : "1 分钟"
+    other: "{{ .Count }} 分钟"
+
+- id: words
+  translation: 
+    one: "字"
+    other: "{{ .Count }} 字"
+
+- id: toc
+  translation: "目录"
+
+- id: translations
+  translation: "语言"
+
+- id: home
+  translation: "主页"
+
+- id: edit_post
+  translation: "编辑"
+
+- id: code_copy
+  translation: "复制"
+
+- id: code_copied
+  translation: "已复制！"
+
+==================================================
+

@@ -4,6 +4,8 @@ date: 2025-04-19T23:33:32+09:00
 draft: false
 categories:
   - 방송정보
+aliases:
+  - /eb8f84ed86a0eba6acebacb5ebb0a5/
 ---
 
 2025년 4월 20일 방송된 MBN <알토란> 537회에서는 자연의 재료로 노화를 늦추는 건강한 밥상이 소개되었습니다.

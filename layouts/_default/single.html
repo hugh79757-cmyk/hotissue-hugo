@@ -1,0 +1,101 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not .Params.hideMeta }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  
+  {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  <!-- [광고 1] 본문 상단 (제목 아래) -->
+  <div class="ad-slot">
+      <span style="color: #999; font-size: 0.8rem;">(광고: 본문 상단)</span>
+      <!-- 여기에 애드센스 코드를 넣으세요 -->
+  </div>
+
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+      
+      {{- /* 본문 처리 로직: 첫 번째 <p> 태그 뒤에 광고 삽입 */ -}}
+      {{- $content := .Content -}}
+      {{- $content = partial "anchored_headings.html" $content -}}
+      
+      {{- /* 첫 번째 닫는 </p> 찾기 */ -}}
+      {{- $p_end := "</p>" -}}
+      {{- $parts := split $content $p_end -}}
+      
+      {{- /* 문단이 2개 이상일 때만 중간 광고 삽입 */ -}}
+      {{- if ge (len $parts) 2 -}}
+          {{- range $index, $part := $parts -}}
+              {{- $part | safeHTML -}}
+              {{- if eq $index 0 -}}
+                  <!-- [광고 2] 첫 번째 문단 직후 (인피드 광고) -->
+                  <div class="ad-slot" style="margin: 20px 0;">
+                      <span style="color: #999; font-size: 0.8rem;">(광고: 본문 중간)</span>
+                      <!-- 여기에 애드센스 인피드 광고 코드를 넣으세요 -->
+                  </div>
+              {{- end -}}
+              {{- if ne (add $index 1) (len $parts) -}}
+                  </p>
+              {{- end -}}
+          {{- end -}}
+      {{- else -}}
+          {{- /* 문단이 짧으면 그냥 원본 출력 */ -}}
+          {{- $content | safeHTML -}}
+      {{- end -}}
+
+    {{- else }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+
+  <!-- [광고 3] 본문 하단 (댓글 위) -->
+  <div class="ad-slot">
+      <span style="color: #999; font-size: 0.8rem;">(광고: 본문 하단)</span>
+      <!-- 여기에 애드센스 일치하는 콘텐츠 광고 코드를 넣으세요 -->
+  </div>
+
+  <footer class="post-footer">
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- if (.Param "ShowShareButtons") }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+{{- end }}{{/* end main */}}

@@ -4,6 +4,8 @@ date: 2025-04-09T10:40:37+09:00
 draft: false
 categories:
   - 오늘의 생활 꿀팁
+aliases:
+  - /ec8ba4ec8b9ceab084-eca084eab5ad-eb8f84eba19c-cctv-/
 ---
 
 - [ITS 국가교통정보센터란?](#its-국가교통정보센터란)

@@ -4,6 +4,8 @@ date: 2025-04-25T21:21:57+09:00
 draft: false
 categories:
   - 오늘의 생활 꿀팁
+aliases:
+  - /gpt-ecb197ebb487-ebacb4eba38ceba19c-ec82acec9aa9ed/
 ---
 
 인공지능 챗봇이 일상이 된 요즘, 누구나 궁금한 것을 물어보고 글도 써주는 AI를 무료로 사용하고 싶어합니다. 그중에서도 가장 인기 있는 GPT 기반 챗봇은 **ChatGPT**로, 오픈AI에서 개발한 대표적인 AI 챗봇입니다. 이 글에서는 ChatGPT를 포함한 다양한 GPT 챗봇을 **무료로 사용할 수 있는 방법**을 하나하나 소개해드립니다.
