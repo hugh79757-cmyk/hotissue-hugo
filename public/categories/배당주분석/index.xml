@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>배당주분석 on 1분전 생성</title>
-    <link>http://localhost:1316/categories/%EB%B0%B0%EB%8B%B9%EC%A3%BC%EB%B6%84%EC%84%9D/</link>
+    <link>http://localhost:1317/categories/%EB%B0%B0%EB%8B%B9%EC%A3%BC%EB%B6%84%EC%84%9D/</link>
     <description>Recent content in 배당주분석 on 1분전 생성</description>
     <generator>Hugo -- 0.154.2</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 12 Jan 2026 13:07:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1316/categories/%EB%B0%B0%EB%8B%B9%EC%A3%BC%EB%B6%84%EC%84%9D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1317/categories/%EB%B0%B0%EB%8B%B9%EC%A3%BC%EB%B6%84%EC%84%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 국내 고배당주 순위 TOP 10과 2026 노후 대비 추천 종목 총정리</title>
-      <link>http://localhost:1316/posts/2025-guknae-gobaedangju-sunwi/</link>
+      <link>http://localhost:1317/posts/2025-guknae-gobaedangju-sunwi/</link>
       <pubDate>Mon, 12 Jan 2026 13:07:00 +0900</pubDate>
-      <guid>http://localhost:1316/posts/2025-guknae-gobaedangju-sunwi/</guid>
+      <guid>http://localhost:1317/posts/2025-guknae-gobaedangju-sunwi/</guid>
       <description>2025년 기준 4년 평균 시가배당률 TOP 10 고배당주와 노후 대비 안정적인 배당주 5선, 금융지주 배당 비교까지. 분리과세 수혜 종목과 배당주 선택 체크포인트를 한눈에 정리했습니다.</description>
     </item>
   </channel>

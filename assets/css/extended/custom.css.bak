@@ -1,0 +1,131 @@
+:root {
+  --gap: 24px;
+  --content-gap: 20px;
+  --nav-width: 1024px;
+  --main-width: 720px;
+  --header-height: 60px;
+  --footer-height: 60px;
+  --radius: 12px;
+  --theme: #faf8f5;
+  --entry: #ffffff;
+  --primary: #1a1a4e;
+  --secondary: #2d2d5a;
+  --tertiary: #f5f1eb;
+  --content: #1a1a4e;
+  --code-block-bg: #2d2d2d;
+  --code-bg: #f5f1eb;
+  --border: #e8e5e0;
+  --accent: #d4a574;
+  --accent-hover: #c4956a;
+  --shadow: rgba(55, 53, 47, 0.08);
+  color-scheme: light;
+}
+
+.dark,
+:root[data-theme="dark"] {
+  --theme: #0f1419;
+  --entry: #1a2332;
+  --primary: #e2e8f0;
+  --secondary: #a0aec0;
+  --tertiary: #2d3748;
+  --content: #e2e8f0;
+  --code-block-bg: #2d2d2d;
+  --code-bg: #2d3748;
+  --border: #4a5568;
+  color-scheme: dark;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--theme);
+  color: var(--primary);
+  line-height: 1.7;
+}
+
+.nav {
+  background: var(--theme);
+  border-bottom: 1px solid var(--border);
+}
+
+.logo a {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+#menu a {
+  color: var(--secondary);
+}
+
+#menu a:hover {
+  color: var(--accent);
+}
+
+.post-entry {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.post-title {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.entry-content,
+.post-content {
+  color: var(--content);
+}
+
+a {
+  color: var(--accent);
+}
+
+.archive-year {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.archive-month {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.archive-entry-title {
+  color: var(--primary);
+}
+
+.archive-entry-title:hover {
+  color: var(--accent);
+}
+
+.toc {
+  background: var(--tertiary);
+  border-radius: var(--radius);
+  padding: 15px;
+}
+
+.toc a {
+  color: var(--secondary);
+}
+
+.post-tags a {
+  background: var(--tertiary);
+  color: var(--secondary);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.post-tags a:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.footer {
+  background: var(--theme);
+  border-top: 1px solid var(--border);
+}

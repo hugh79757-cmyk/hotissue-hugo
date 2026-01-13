@@ -1,0 +1,162 @@
+/* ========================================
+   Lime Quiet Premium - hotissue.rotcha.kr
+   라임: #A7FF2E (다운톤)
+   스타일: 그림자형 + 스포트라이트
+   ======================================== */
+
+:root {
+  --accent: #A7FF2E;
+  --accent-dim: rgba(167, 255, 46, 0.15);
+  --bg: #ffffff;
+  --panel: rgba(255,255,255,0.96);
+  --text: #0b0d0f;
+  --muted: rgba(11,13,15,.60);
+  --border: rgba(11,13,15,.06);
+
+  --r-lg: 16px;
+  --shadow-card: 0 2px 8px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,.08), 0 16px 48px rgba(0,0,0,.12);
+
+  --t-fast: 140ms;
+  --t: 200ms;
+  --ease: cubic-bezier(.2,.8,.2,1);
+}
+
+.dark, :root[data-theme="dark"] {
+  --bg: #0b0d0f;
+  --panel: rgba(255,255,255,0.04);
+  --text: #edeff2;
+  --muted: rgba(255,255,255,.58);
+  --border: rgba(255,255,255,.08);
+  --shadow-card: 0 2px 8px rgba(0,0,0,.30), 0 12px 36px rgba(0,0,0,.40);
+  --shadow-hover: 0 4px 16px rgba(0,0,0,.40), 0 24px 64px rgba(0,0,0,.50);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.post-content, .entry-content, .main {
+  color: var(--text);
+}
+
+.post-content a, .entry-content a {
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(var(--accent), var(--accent)) 0 100% / 0% 2px no-repeat;
+  transition: background-size var(--t) var(--ease), color var(--t-fast) var(--ease);
+}
+
+.post-content a:hover, .entry-content a:hover {
+  color: var(--accent);
+  background-size: 100% 2px;
+}
+
+.post-entry {
+  position: relative;
+  border: none;
+  border-radius: var(--r-lg);
+  background: var(--panel);
+  box-shadow: var(--shadow-card);
+  transform: translateY(0);
+  overflow: hidden;
+  transition:
+    transform var(--t) var(--ease),
+    box-shadow var(--t) var(--ease);
+}
+
+.post-entry::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, var(--accent-dim) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity var(--t) var(--ease);
+  z-index: 0;
+  left: var(--spot-x, 50%);
+  top: var(--spot-y, 50%);
+}
+
+.post-entry:hover::before {
+  opacity: 1;
+}
+
+.post-entry > * {
+  position: relative;
+  z-index: 1;
+}
+
+.post-entry:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.entry-header h2 {
+  transition: color var(--t-fast) var(--ease);
+}
+
+.post-entry:hover .entry-header h2 {
+  color: var(--accent);
+}
+
+.nav {
+  background: var(--panel);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.post-tags a, .paginav a {
+  background: var(--accent-dim);
+  color: var(--text);
+  border: none;
+  border-radius: 999px;
+  padding: 6px 14px;
+  transition: transform var(--t-fast) var(--ease), background var(--t) var(--ease);
+}
+
+.post-tags a:hover, .paginav a:hover {
+  background: var(--accent);
+  color: #0b0d0f;
+}
+
+.post-tags a:active, .paginav a:active {
+  transform: translateY(1px) scale(.98);
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.toc {
+  background: var(--panel);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.archive-year-header {
+  color: var(--accent);
+}
+
+.archive-entry:hover .archive-entry-title {
+  color: var(--accent);
+}
+
+.footer {
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+  }
+  .post-entry {
+    transform: none !important;
+  }
+}
