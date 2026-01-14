@@ -1,0 +1,46 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+
+{{- if .Site.Params.ShowAllPagesInArchive }}
+{{- $pages = site.RegularPages }}
+{{- end }}
+
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">
+    {{- replace .Key "0001" "" }}
+  </h2>
+  <div class="archive-month">
+    {{- range .Pages.GroupByDate "January" }}
+    <div class="archive-month-header">
+      <span>{{ .Key }}</span>
+    </div>
+    <div class="archive-posts">
+      {{- range .Pages }}
+      <article class="archive-entry">
+        <a class="archive-entry-link" href="{{ .Permalink }}">{{ .Title }}</a>
+        <span class="archive-entry-date">
+          {{- .Date.Format (default "January 2" site.Params.DateFormat) }}
+        </span>
+      </article>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}
