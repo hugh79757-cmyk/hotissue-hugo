@@ -160,3 +160,14 @@ html, body {
     transform: none !important;
   }
 }
+
+/* 링크 클릭 문제 해결 */
+.post-content a, .entry-content a {
+  position: relative;
+  z-index: 10;
+}
+
+.post-entry a {
+  position: relative;
+  z-index: 10;
+}
