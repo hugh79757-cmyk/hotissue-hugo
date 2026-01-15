@@ -3,55 +3,48 @@ languageCode = 'ko-kr'
 title = '1분전 생성'
 theme = "PaperMod"
 
-# [최적화] 페이지네이션
 [pagination]
   pagerSize = 10
 
 [params]
   defaultTheme = "auto"
   env = "production"
-  description = "생활에 편리함을 주는 다양한 정보를 모았습니다.."
+  description = "생활에 편리함을 주는 다양한 정보를 모았습니다."
   author = "1분 정보"
 
-  # [기능] 필수 기능 활성화
   ShowRelatedContent = true
   ShowReadingTime = true
   ShowShareButtons = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
-  
-  # [홈 화면]
+
   [params.homeInfoParams]
     Title = "1분전 생성👋"
     Content = "당신의 생활에 편리함을 더해 주는 1분전 생성 정보입니다."
 
-  # [SEO] 소셜 프로필
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/hugh79757-cmyk"
 
-  # [커버 이미지]
   [params.cover]
-    hidden = false 
+    hidden = false
     hiddenInList = false
     hiddenInSingle = false
 
-# [메뉴] 카테고리 연결
 [menu]
   [[menu.main]]
     identifier = "archives"
     name = "포스트"
     url = "/archives/"
     weight = 10
-  
+
   [[menu.main]]
     identifier = "about"
     name = "소개"
     url = "/about/"
     weight = 20
 
-# [마크다운] HTML 태그 허용
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

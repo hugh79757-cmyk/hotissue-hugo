@@ -1,0 +1,51 @@
+{{- define "main" }}
+
+{{- if .Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+  <header class="entry-header">
+    <h1>{{ .Site.Params.homeInfoParams.Title | markdownify }}</h1>
+  </header>
+  <div class="entry-content">
+    <p>{{ .Site.Params.homeInfoParams.Content | markdownify }}</p>
+  </div>
+  <footer class="entry-footer">
+    {{- partial "social_icons.html" .Site.Params }}
+  </footer>
+</article>
+{{- end }}
+
+{{- $pages := site.RegularPages }}
+{{- range $pages }}
+<article class="post-entry">
+  {{- $cover := .Params.cover.image }}
+  {{- if not $cover }}
+    {{- $content := .RawContent }}
+    {{- $match := findRE `!\[.*?\]\((https?://[^\)]+)\)` $content 1 }}
+    {{- if $match }}
+      {{- $imgTag := index $match 0 }}
+      {{- $cover = replaceRE `!\[.*?\]\((https?://[^\)]+)\)` "$1" $imgTag }}
+    {{- end }}
+  {{- end }}
+  
+  {{- if and $cover (ne $cover "") }}
+  <figure class="entry-cover">
+    <a href="{{ .Permalink }}">
+      <img loading="lazy" src="{{ $cover }}" alt="{{ .Title }}">
+    </a>
+  </figure>
+  {{- end }}
+  
+  <header class="entry-header">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  </header>
+  <div class="entry-content">
+    <p>{{ .Summary | truncate 120 }}</p>
+  </div>
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  <a class="entry-link" aria-label="post link to {{ .Title }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- end }}
