@@ -1,6 +1,17 @@
 {{- define "main" }}
 
 <article class="post-single">
+  <!-- 광고 1: 타이틀 위 -->
+  <div class="ad-container" style="margin: 20px 0; text-align: center;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8772455780561463"
+         data-ad-slot="6055637766"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title">
@@ -29,28 +40,20 @@
   {{- partial "toc.html" . }}
   {{- end }}
 
-  <!-- 광고 1: 본문 상단 -->
-  <div class="ad-container" style="margin: 20px 0; text-align: center;">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8772455780561463"
-         data-ad-slot="6055637766"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
       {{- $content := .Content -}}
       {{- $content = partial "anchored_headings.html" $content -}}
+      {{- /* 첫 번째 </p> 태그 뒤에 광고 삽입 */ -}}
+      {{- $adCode := `</p><div class="ad-container" style="margin: 30px 0; text-align: center;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8772455780561463" data-ad-slot="6055637766" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>` -}}
+      {{- $content = replaceRE `</p>` $adCode $content 1 -}}
       {{ $content | safeHTML }}
     {{- else }}
       {{ .Content }}
     {{- end }}
   </div>
 
-  <!-- 광고 2: 본문 하단 -->
+  <!-- 광고 3: 본문 하단 -->
   <div class="ad-container" style="margin: 20px 0; text-align: center;">
     <ins class="adsbygoogle"
          style="display:block"
@@ -62,24 +65,20 @@
   </div>
 
   <footer class="post-footer">
-    {{- if .Params.tags }}
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
-      {{- range ($.GetTerms "tags") }}
+      {{- range ($.GetTerms $tags) }}
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
+    {{- if .Params.author }}
+    <div class="post-author">
+      {{ .Params.author }}
+    </div>
     {{- end }}
-    {{- if (.Param "ShowShareButtons") }}
     {{- partial "share_icons.html" . -}}
-    {{- end }}
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
+    {{- partial "post_nav_links.html" . -}}
   </footer>
-
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
 </article>
 
-{{- end }}{{/* end main */}}
+{{- end }}

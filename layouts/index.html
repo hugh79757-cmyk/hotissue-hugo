@@ -17,20 +17,35 @@
 {{- $pages := site.RegularPages }}
 {{- range $pages }}
 <article class="post-entry">
-  {{- $cover := .Params.cover.image }}
-  {{- if not $cover }}
-    {{- $content := .RawContent }}
-    {{- $match := findRE `!\[.*?\]\((https?://[^\)]+)\)` $content 1 }}
-    {{- if $match }}
-      {{- $imgTag := index $match 0 }}
-      {{- $cover = replaceRE `!\[.*?\]\((https?://[^\)]+)\)` "$1" $imgTag }}
+  {{- $coverUrl := "" }}
+  
+  {{/* 1. 로컬 thumbnail 파일 확인 (새 글) */}}
+  {{- $localImage := .Resources.GetMatch "thumbnail.*" }}
+  {{- if $localImage }}
+    {{- $coverUrl = $localImage.RelPermalink }}
+  {{- else }}
+    {{/* 2. cover.image가 외부 URL인지 확인 (R2 등) */}}
+    {{- $cover := .Params.cover.image }}
+    {{- if and $cover (hasPrefix $cover "http") }}
+      {{- $coverUrl = $cover }}
+    {{- else if $cover }}
+      {{/* 3. cover.image가 상대 경로면 절대 경로로 변환 */}}
+      {{- $coverUrl = printf "%s%s" .RelPermalink $cover }}
+    {{- else }}
+      {{/* 4. 본문에서 첫 번째 이미지 URL 추출 (기존 글) */}}
+      {{- $content := .RawContent }}
+      {{- $match := findRE `!\[.*?\]\((https?://[^\)]+)\)` $content 1 }}
+      {{- if $match }}
+        {{- $imgTag := index $match 0 }}
+        {{- $coverUrl = replaceRE `!\[.*?\]\((https?://[^\)]+)\)` "$1" $imgTag }}
+      {{- end }}
     {{- end }}
   {{- end }}
   
-  {{- if and $cover (ne $cover "") }}
+  {{- if and $coverUrl (ne $coverUrl "") }}
   <figure class="entry-cover">
     <a href="{{ .Permalink }}">
-      <img loading="lazy" src="{{ $cover }}" alt="{{ .Title }}">
+      <img loading="lazy" src="{{ $coverUrl }}" alt="{{ .Title }}">
     </a>
   </figure>
   {{- end }}

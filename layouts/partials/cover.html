@@ -1,0 +1,31 @@
+{{- with .cxt}}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+<figure class="entry-cover">
+    {{- $loading := cond $.IsSingle "eager" "lazy" }}
+    {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+    
+    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $cover := $pageBundleCover }}
+    
+    {{- if $cover }}
+        {{/* 리사이즈 없이 원본 사용 */}}
+        <img loading="{{ $loading }}" 
+             src="{{ $cover.Permalink }}" 
+             alt="{{ $alt }}"
+             width="{{ $cover.Width }}" 
+             height="{{ $cover.Height }}">
+    {{- else }}
+        {{/* 외부 URL이나 다른 경로 */}}
+        <img loading="{{ $loading }}" 
+             src="{{ .Params.cover.image | absURL }}" 
+             alt="{{ $alt }}">
+    {{- end }}
+    
+    {{- if $.IsSingle }}
+        {{ with .Params.cover.caption }}
+            <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+    {{- end }}
+</figure>
+{{- end }}
+{{- end }}
