@@ -1,40 +1,11 @@
-{{- /* AdSense */ -}}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772455780561463" crossorigin="anonymous"></script>
+<!-- Naver 소유권 인증 -->
+<meta name="naver-site-verification" content="eb09159a59f6484b9e2d704b57a5a52410946b5c" />
 
-{{- /* 프리텐다드 폰트 */ -}}
-<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
-
-<style>
-body {
-  font-family: "Pretendard", -apple-system, sans-serif;
-}
-
-@media screen and (max-width: 768px) {
-  .post-content { font-size: 17px; line-height: 1.7; }
-  .main { padding: 0 15px; }
-}
-
-.post-content table {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-}
-</style>
-
-{{- $image := .Params.cover.image | default .Params.thumbnail -}}
-{{- if not $image -}}
-  {{- $images := findRE "<img src=\"[^\"|\\\"]*\"" .Content -}}
-  {{- if ge (len $images) 1 -}}
-    {{- $image = (index $images 0 | replaceRE "<img src=\"" "") | replaceRE "\"" "" -}}
-  {{- end -}}
-{{- end -}}
-
-{{- if $image -}}
-<meta property="og:image" content="{{ $image | absURL }}" />
-<meta name="twitter:image" content="{{ $image | absURL }}" />
-<meta name="twitter:card" content="summary_large_image" />
-{{- end -}}
-
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}" />
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VSNXWPLE4L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VSNXWPLE4L');
+</script>
